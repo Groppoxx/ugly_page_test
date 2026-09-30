@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SNC: Sistema Nacional de Conductores - Examen de Conocimiento (v 1.0.1)</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="app-window prelogin-active">
+      <header class="topbar">
+        <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menú">☰</button>
+        <h1 id="pageTitle">EXAMEN DE CONOCIMIENTO - ACCESO PARA POSTULANTES</h1>
+        <div class="brand" aria-label="Ministerio de Transportes y Comunicaciones del Perú">
+          <div class="crest">
+            <img src="assets/img/escudo-peruano-204.jpg" alt="Escudo de la República del Perú" />
+          </div>
+          <div class="peru">PERÚ</div>
+          <div class="ministry">Ministerio<br />de Transportes<br />y Comunicaciones</div>
+        </div>
+      </header>
+
+      <section class="workspace">
+        <section class="prelogin" id="prelogin" aria-label="Acceso previo">
+          <h2>ACCESO PREVIO</h2>
+          <form id="preloginForm" autocomplete="off">
+            <label for="preloginUser">Usuario</label>
+            <input id="preloginUser" type="text" autocomplete="off" required />
+            <label for="preloginPassword">Contraseña</label>
+            <input id="preloginPassword" type="password" autocomplete="off" required />
+            <button type="submit">ENTRAR</button>
+            <p id="preloginMessage" role="alert" aria-live="polite"></p>
+          </form>
+        </section>
+        <div class="exam-status" id="examStatus" hidden>
+          <p>El postulante no puede dar el examen porque:</p>
+          <div>• No se encontro examen activo</div>
+        </div>
+        <form class="login-card" id="loginForm" hidden>
+          <div class="id-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 40" xmlns="http://www.w3.org/2000/svg">
+              <path class="badge-outline" d="M18 7H5.5A2.5 2.5 0 0 0 3 9.5v26A2.5 2.5 0 0 0 5.5 38h37a2.5 2.5 0 0 0 2.5-2.5v-26A2.5 2.5 0 0 0 42.5 7H30" />
+              <path class="badge-clip" d="M24 1v10" />
+              <circle cx="13" cy="18" r="5" />
+              <path d="M4.5 33c.5-6.2 3.8-9.3 8.5-9.3s8 3.1 8.5 9.3z" />
+              <path class="badge-lines" d="M27 15h13M27 23h13M27 31h13" />
+            </svg>
+          </div>
+
+          <div class="fields">
+            <label class="select-wrap">
+              <select id="documentType" aria-label="Tipo de documento">
+                <option>DNI</option>
+                <option>CARNET DE EXTRANJERIA</option>
+                <option>CARNET DE SOLICITANTE DE REFUGIO</option>
+                <option>PERMISO TEMPORAL DE PERMANENCIA</option>
+                <option>CEDULA DE IDENTIDAD DIPLOMATICA</option>
+              </select>
+            </label>
+
+            <label class="document-field">
+              <span>N° de documento</span>
+              <input id="documentNumber" type="text" inputmode="numeric" autocomplete="off" required pattern="[0-9]{8}" aria-describedby="message" />
+            </label>
+
+            <button type="submit"><span class="key-icon" aria-hidden="true"></span><span>Entrar</span></button>
+            <p class="message" id="message" aria-live="polite"></p>
+          </div>
+        </form>
+
+        <section class="exam-summary" id="examSummary" hidden aria-label="Resumen del examen">
+          <div class="summary-section-title">POSTULANTE</div>
+          <div class="avatar-box">
+            <img src="assets/img/avatar-placeholder.png" alt="Foto del postulante" />
+          </div>
+          <div class="summary-dni" id="summaryDni">25801716</div>
+          <div class="summary-name" id="summaryName">SAMUEL SOTO HERRERA</div>
+
+          <div class="summary-section-title summary-exam-title">EXAMEN</div>
+          <div class="summary-row"><span>Categoría:</span><strong id="summaryCategory">(A) IIb</strong></div>
+          <div class="summary-row"><span>Idioma:</span><strong>Español</strong></div>
+          <div class="summary-subtitle">Examen de Conocimientos</div>
+          <div class="summary-row centered"><span>Tiempo de duración:</span><strong>40 Minutos</strong></div>
+          <div class="summary-row centered"><span>Porcentaje mínimo:</span><strong>87 %</strong></div>
+          <hr class="summary-divider" />
+          <button class="start-exam-button" id="startExam" type="button">
+            <svg class="exam-start-icon" viewBox="0 0 18 20" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="9" cy="6.5" r="5.2" />
+              <path d="M9 3.8v3l2 1.5M3 13v5M3 15.5h12M15 13v5" />
+            </svg>
+            <span>¡EMPEZAR EXAMEN!</span>
+          </button>
+          <p class="start-exam-message" id="startExamMessage" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="exam-screen" id="examScreen" hidden aria-label="Examen de conocimientos">
+          <aside class="exam-sidebar">
+            <div class="exam-sidebar-title">POSTULANTE</div>
+            <div class="candidate-photo"><img src="assets/img/avatar-placeholder.png" alt="Foto del postulante" /></div>
+            <div class="candidate-name" id="examCandidateName">SAMUEL SOTO HERRERA</div>
+            <div class="topics-nav" id="topicsNav"></div>
+            <div class="answer-summary">
+              <div class="answer-progress"><span id="answerProgressFill"></span></div>
+              <div><span>Resúmen de preguntas (<span id="answerCount">0/0</span>)</span><strong id="answerPercent">0%</strong></div>
+            </div>
+          </aside>
+
+          <main class="exam-main">
+            <div class="exam-toolbar"><span>Tiempo restante: <strong id="examTimer">00:40:00</strong></span><span>Intentos: 2 de 0</span></div>
+            <div class="exam-progress"><span id="examProgressFill"></span></div>
+            <article class="question-card" id="questionCard">
+              <div class="question-topic" id="questionTopic"></div>
+              <div class="question-text" id="questionText"></div>
+              <img class="question-image" id="questionImage" alt="Imagen de la pregunta" hidden />
+              <div class="question-options" id="questionOptions"></div>
+            </article>
+            <div class="question-navigation">
+              <button class="question-nav-button" id="previousQuestion" type="button" aria-label="Pregunta anterior">‹</button>
+              <span id="questionCounter">1/40</span>
+              <button class="question-nav-button" id="nextQuestion" type="button" aria-label="Pregunta siguiente">›</button>
+              <button class="keyboard-help" id="keyboardHelp" type="button">AYUDA PARA EL USO DEL TECLADO, HAZ CLIC AQUÍ</button>
+            </div>
+            <button class="finish-exam" id="finishExam" type="button" disabled>
+              <svg class="finish-icon" viewBox="0 0 18 20" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 2h7v16H3zM12 10H5m7 0-3-3m3 3-3 3" />
+              </svg>
+              <span>FINALIZAR EXAMEN</span>
+            </button>
+            <div class="exam-zoom"><span id="zoomPercent">45%</span><button type="button" id="zoomOut">−</button><input id="zoomRange" type="range" min="35" max="100" value="45" /><button type="button" id="zoomIn">+</button></div>
+          </main>
+        </section>
+
+        <section class="finish-screen" id="finishScreen" hidden aria-label="Examen finalizado">
+          <div class="finish-panel">
+            <div class="finish-section-title">POSTULANTE</div>
+            <div class="finish-avatar"><img src="assets/img/avatar-placeholder.png" alt="Foto del postulante" /></div>
+            <div class="finish-name" id="finishName">SAMUEL SOTO HERRERA</div>
+            <div class="finish-divider"></div>
+            <div class="finish-section-title finish-exam-label">EXAMEN</div>
+            <div class="finish-row"><span>Categoría:</span><strong id="finishCategory">(A) IIb</strong></div>
+            <div class="finish-row"><span>Idioma:</span><strong>Español</strong></div>
+            <p class="delivery-message">POR FAVOR, ACÉRCARSE PARA LA ENTREGA DE SU RESULTADO</p>
+            <div class="finish-divider finish-lower-divider"></div>
+            <button class="new-exam-button" id="newExamButton" type="button"><span class="new-exam-icon" aria-hidden="true">⟳</span>DAR UN NUEVO EXAMEN !</button>
+          </div>
+        </section>
+      </section>
+
+      <footer class="statusbar">
+        <div class="status ip">
+          <svg class="ip-icon" viewBox="0 0 24 30" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <rect class="ip-screen" x="3" y="2" width="18" height="19" rx="1" />
+            <path class="ip-letters" d="M8 7v9M12 16V7h3.5a3 3 0 0 1 0 6H12" />
+            <path class="ip-stand" d="M12 21v5M5 27.5h14" />
+          </svg>
+          <span>172.18.21.222</span>
+        </div>
+        <div class="status mac">
+          <svg class="network-icon" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <rect class="network-case" x="2" y="2" width="20" height="20" rx="2" />
+            <path class="network-mark" d="M7 10h2V7h3v3h2V7h3v3h2v8h-3v-5h-2v5h-3v-5H9v5H6v-8h1z" />
+          </svg>
+          <span>04-7C-16-2A-71-84</span>
+        </div>
+        <div class="status credits"><span>©</span>Desarrollado por la Oficina General de Tecnología de la Información OGTI - Ministerio de Transportes y Comunicaciones - © 2022 (v 1.0.1)</div>
+        <div class="status light">
+          <svg class="led-icon" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path class="led-rays" d="M12 1v4M4.2 4.2 7 7M1 12h4M19 12h4M17 7l2.8-2.8" />
+            <path class="led-body" d="M7.5 11a4.5 4.5 0 0 1 9 0v5.5h-9z" />
+            <path class="led-base" d="M6.5 16.5h11" />
+            <path class="led-pins" d="M9.5 17.5V23M14.5 17.5V23" />
+          </svg>
+        </div>
+        <div class="status version"><span class="dotnet-mark">.NET</span><span>7.0.0.28</span></div>
+        <div class="status filler"></div>
+      </footer>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
