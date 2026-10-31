@@ -6,9 +6,9 @@
       "descripcion": "Con respecto a las definiciones de acera y/o de calzada marque la respuesta correcta.",
       "imagen": null,
       "alternativas": {
-        "a": "Ambassonunaparte de la vía y están destinadas a la circulación de vehículos",
-        "b": "La calzada es una partedelavíadestinada a la circulación de vehículos y eventualmente al cruce de peatones y animales.",
-        "c": "Por lo general enla acera circulan vehículos",
+        "a": "Ambas son una parte de la vía y están destinadas a la circulación de vehículos",
+        "b": "La calzada es una parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales.",
+        "c": "Por lo general en la acera circulan vehículos",
         "d": "La acera es parte de la vía en la cual excepcionalmente pueden circular personas."
       },
       "alternativas_imagenes": {
@@ -22,7 +22,7 @@
     {
       "numero": "2",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Es una prerrogativa deun peatón o conductor de un vehículo para proseguir sumarchaenprecedenciaa otro peatón o vehículo.",
+      "descripcion": "Es una prerrogativa de un peatón o conductor de un vehículo para proseguir su marcha en precedencia a otro peatón o vehículo.",
       "imagen": null,
       "alternativas": {
         "a": "Paso a desnivel",
@@ -41,7 +41,7 @@
     {
       "numero": "3",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "En una intersección yante la señal correspondiente,________esunlímite para que el vehículo se detenga",
+      "descripcion": "En una intersección y ante la señal correspondiente, ________ es un límite para que el vehículo se detenga",
       "imagen": null,
       "alternativas": {
         "a": "La Línea Transversal marcada en la calzada",
@@ -64,7 +64,7 @@
       "imagen": null,
       "alternativas": {
         "a": "El TUO de Tránsito",
-        "b": "ReglamentoNacional de Gestión de Infraestructura Vial.",
+        "b": "Reglamento Nacional de Gestión de Infraestructura Vial.",
         "c": "El Reglamento Nacional de Jerarquización Vial",
         "d": "a y b son correctas"
       },
@@ -79,7 +79,7 @@
     {
       "numero": "5",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "La calzada, la acera yla bermason algunos de los elementos que conforman",
+      "descripcion": "La calzada, la acera y la berma son algunos de los elementos que conforman",
       "imagen": null,
       "alternativas": {
         "a": "El estacionamiento",
@@ -102,7 +102,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Recoger o dejar pasajeros o carga en lugares no autorizados.",
-        "b": "Destinar las calzadas aotrousoquenoseael tránsito y el estacionamiento",
+        "b": "Destinar las calzadas a otro uso que no sea el tránsito y el estacionamiento",
         "c": "Recoger o dejar pasajeros en lugares autorizados.",
         "d": "Ninguna de las anteriores"
       },
@@ -120,7 +120,7 @@
       "descripcion": "Con respecto al Manual de Dispositivos de Control del Tránsito Automotor para Calles y Carreteras marque la respuesta correcta",
       "imagen": null,
       "alternativas": {
-        "a": "Establece elmodode empleodelosdiferentes dispositivos de control del tránsito, clasificación, funcionalidad, color, tamaño",
+        "a": "Establece el modo de empleo de los diferentes dispositivos de control del tránsito, clasificación, funcionalidad, color, tamaño",
         "b": "Fue actualizado por última vez en el año 2016",
         "c": "Ninguna de las anteriores",
         "d": "a y b son correctas."
@@ -139,8 +139,8 @@
       "descripcion": "Son algunos de los dispositivos de control de tránsito automotor para calles y carreteras",
       "imagen": null,
       "alternativas": {
-        "a": "Señales Verticales, Marcas enelPavimento, Espejos.",
-        "b": "Señales Verticales, Marcas enelPavimento, Radios.",
+        "a": "Señales Verticales, Marcas en el Pavimento, Espejos.",
+        "b": "Señales Verticales, Marcas en el Pavimento, Radios.",
         "c": "Señales Verticales y Horizontales (Marcas en el Pavimento), Semáforos",
         "d": "Espejos, radios y semáforos"
       },
@@ -155,13 +155,13 @@
     {
       "numero": "9",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Señalela respuesta correctarespecto delaobediencia alosdispositivos de control o regulación del tránsito.",
+      "descripcion": "Señale la respuesta correcta respecto de la obediencia a los dispositivos de control o regulación del tránsito.",
       "imagen": null,
       "alternativas": {
-        "a": "Losconductores ylos peatones están obligados a su obediencia solo cuando la Policía Nacional asignada al Tránsito lo indique.",
-        "b": "Losconductores ylos peatones están obligados a su obediencia, salvo instrucción encontrario de la Policía Nacional asignada al Tránsito.",
+        "a": "Los conductores y los peatones están obligados a su obediencia solo cuando la Policía Nacional asignada al Tránsito lo indique.",
+        "b": "Los conductores y los peatones están obligados a su obediencia, salvo instrucción en contrario de la Policía Nacional asignada al Tránsito.",
         "c": "Solo los conductores están obligados a su obediencia",
-        "d": "Losconductoresestán obligados a su obediencia, sin excepción alguna."
+        "d": "Los conductores están obligados a su obediencia, sin excepción alguna."
       },
       "alternativas_imagenes": {
         "a": null,
@@ -177,8 +177,8 @@
       "descripcion": "Las señalares verticales se clasifican:",
       "imagen": null,
       "alternativas": {
-        "a": "i.Reguladoras, ii. De reglamentación yiii. De advertencia",
-        "b": "i.Informativas, ii. De reglamentación y iii. Preventivas",
+        "a": "i. Reguladoras, ii. De reglamentación y iii. De advertencia",
+        "b": "i. Informativas, ii. De reglamentación y iii. Preventivas",
         "c": "i. Reguladoras, ii. De advertencia y iii. Preventivas",
         "d": "Ninguna de las anteriores"
       },
@@ -193,7 +193,7 @@
     {
       "numero": "11",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Lasseñalesverticalesdetránsitoque tienen por finalidad indicar prohibición, restricción o limitación en el uso de la vía son denominadas",
+      "descripcion": "Las señales verticales de tránsito que tienen por finalidad indicar prohibición, restricción o limitación en el uso de la vía son denominadas",
       "imagen": null,
       "alternativas": {
         "a": "Reguladoras",
@@ -212,7 +212,7 @@
     {
       "numero": "12",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Lasseñalesverticalesdetránsitoque tienen por finalidad advertir a los usuariosdelaexistenciaynaturaleza de un peligro en la vía son denominadas",
+      "descripcion": "Las señales verticales de tránsito que tienen por finalidad advertir a los usuarios de la existencia y naturaleza de un peligro en la vía son denominadas",
       "imagen": null,
       "alternativas": {
         "a": "Informativas",
@@ -231,7 +231,7 @@
     {
       "numero": "13",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Cuáldelasiguienteseñalverticales informativa:",
+      "descripcion": "Cuál de la siguiente señal vertical es informativa:",
       "imagen": null,
       "alternativas": {
         "a": "",
@@ -250,7 +250,7 @@
     {
       "numero": "14",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Cuáldelasiguienteseñalverticales preventiva:",
+      "descripcion": "Cuál de la siguiente señal vertical es preventiva:",
       "imagen": null,
       "alternativas": {
         "a": "",
@@ -269,7 +269,7 @@
     {
       "numero": "15",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Cuáldelasiguienteseñalverticales reguladora o de reglamentación:",
+      "descripcion": "Cuál de la siguiente señal vertical es reguladora o de reglamentación:",
       "imagen": null,
       "alternativas": {
         "a": "",
@@ -307,11 +307,11 @@
     {
       "numero": "17",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Las______________________tienen,por lo general, forma circular inscrita dentrodeunaplacarectangularenla quetambiénestécontenidalaleyenda explicativa del símbolo.",
+      "descripcion": "Las ______________________ tienen, por lo general, forma circular inscrita dentro de una placa rectangular en la que también esté contenida la leyenda explicativa del símbolo.",
       "imagen": null,
       "alternativas": {
         "a": "Señales verticales reguladoras",
-        "b": "Señalesverticalesde información",
+        "b": "Señales verticales de información",
         "c": "Señales verticales preventivas",
         "d": ""
       },
@@ -326,12 +326,12 @@
     {
       "numero": "18",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Laseñalvertical preventiva \"Cruzde San Andrés\" significa:",
+      "descripcion": "La señal vertical preventiva \"Cruz de San Andrés\" significa:",
       "imagen": null,
       "alternativas": {
         "a": "Paso a desnivel de autopista",
         "b": "Paso a nivel de autopista",
-        "c": "Pasoanivel delínea férrea",
+        "c": "Paso a nivel de línea férrea",
         "d": ""
       },
       "alternativas_imagenes": {
@@ -348,9 +348,9 @@
       "descripcion": "La señal vertical reglamentaria R-6 Prohibido voltear a la izquierda significa que:",
       "imagen": null,
       "alternativas": {
-        "a": "Está prohibido voltear a la izquierda, y por tantotambiénelgiroen U",
-        "b": "Está prohibido voltear a la izquierda, sin embargo,estapermitido el giro en U",
-        "c": "Noestá permitidoel giroa la izquierda con luz roja.",
+        "a": "Está prohibido voltear a la izquierda, y por tanto también el giro en U",
+        "b": "Está prohibido voltear a la izquierda, sin embargo, esta permitido el giro en U",
+        "c": "No está permitido el giro a la izquierda con luz roja.",
         "d": "Ninguna de las anteriores."
       },
       "alternativas_imagenes": {
@@ -367,9 +367,9 @@
       "descripcion": "La señal vertical reglamentaria R-3 significa que:",
       "imagen": "B_IIC_generales_p2_n20_preg.png",
       "alternativas": {
-        "a": "Nosacercamosauna zona restringida al tránsito.",
-        "b": "Nos aproximamos a untramodecirculación unidireccional en el sentidoindicadoporla fecha.",
-        "c": "Debemos circular sólo enladirecciónysentido indicado por la flecha.",
+        "a": "Nos acercamos a una zona restringida al tránsito.",
+        "b": "Nos aproximamos a un tramo de circulación unidireccional en el sentido indicado por la fecha.",
+        "c": "Debemos circular sólo en la dirección y sentido indicado por la flecha.",
         "d": "Ninguna de las anteriores"
       },
       "alternativas_imagenes": {
@@ -386,8 +386,8 @@
       "descripcion": "Las señales verticales informativas tienen por objeto:",
       "imagen": null,
       "alternativas": {
-        "a": "Notificar a los usuariosdelavíadela existenciadeunpeligro y la naturaleza de éste.",
-        "b": "Advertir a los usuariosdelavíadela existenciadeunpeligro y la naturaleza de éste.",
+        "a": "Notificar a los usuarios de la vía de la existencia de un peligro y la naturaleza de éste.",
+        "b": "Advertir a los usuarios de la vía de la existencia de un peligro y la naturaleza de éste.",
         "c": "Identificar las vías y guiar al usuario proporcionándole la información que pueda necesitar.",
         "d": ""
       },
@@ -402,11 +402,11 @@
     {
       "numero": "22",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enlasvías,cuáles lafinalidadsilas marcas de pavimento son del tipo central discontinua y de color amarillo:",
+      "descripcion": "En las vías, cuál es la finalidad si las marcas de pavimento son del tipo central discontinua y de color amarillo:",
       "imagen": null,
       "alternativas": {
-        "a": "Separa vías en carrilesbidireccionales, en los que está permitidocruzaralotro carril para adelantar.",
-        "b": "Separa vías en carrilesbidireccionales, en los que no está permitidocruzaralotro carril para adelantar.",
+        "a": "Separa vías en carriles bidireccionales, en los que está permitido cruzar al otro carril para adelantar.",
+        "b": "Separa vías en carriles bidireccionales, en los que no está permitido cruzar al otro carril para adelantar.",
         "c": "Separa vías en dos carriles del mismo sentido.",
         "d": "a y b son correctas."
       },
@@ -440,7 +440,7 @@
     {
       "numero": "24",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enunavía,loscolores delsemáforo son:",
+      "descripcion": "En una vía, los colores del semáforo son:",
       "imagen": null,
       "alternativas": {
         "a": "Rojo, Amarillo y Verde.",
@@ -459,12 +459,12 @@
     {
       "numero": "25",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enunavía, los colores delsemáforo están ubicados de la siguiente forma:",
+      "descripcion": "En una vía, los colores del semáforo están ubicados de la siguiente forma:",
       "imagen": null,
       "alternativas": {
-        "a": "Horizontalmenteenel siguiente orden: Arriba el Rojo, en el medio Amarillo y en la parte inferior Verde.",
-        "b": "Horizontalmenteenel siguiente orden: Rojo, Amarillo y Verde.",
-        "c": "Horizontalmente enel siguiente orden: Arriba el Verde, al medio Amarillo y en la parte inferior Rojo.",
+        "a": "Horizontalmente en el siguiente orden: Arriba el Rojo, en el medio Amarillo y en la parte inferior Verde.",
+        "b": "Horizontalmente en el siguiente orden: Rojo, Amarillo y Verde.",
+        "c": "Horizontalmente en el siguiente orden: Arriba el Verde, al medio Amarillo y en la parte inferior Rojo.",
         "d": "a y b son correctas"
       },
       "alternativas_imagenes": {
@@ -478,12 +478,12 @@
     {
       "numero": "26",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Elcolor del semáforo ámbar tieneel siguiente significado",
+      "descripcion": "El color del semáforo ámbar tiene el siguiente significado",
       "imagen": null,
       "alternativas": {
-        "a": "Es una señal que indica prevención ylos vehículos que la enfrentan deben avanzar",
+        "a": "Es una señal que indica prevención y los vehículos que la enfrentan deben avanzar",
         "b": "Los vehículos que enfrenten esta señal deben detenerse antes de entrar a la intersección.",
-        "c": "Losvehículos quehan sido sorprendidos tan próximos al crucedela intersección que ya no pueden detenerse con suficiente seguridad, deben continuar con precaución",
+        "c": "Los vehículos que han sido sorprendidos tan próximos al cruce de la intersección que ya no pueden detenerse con suficiente seguridad, deben continuar con precaución",
         "d": "b y c son correctas"
       },
       "alternativas_imagenes": {
@@ -500,7 +500,7 @@
       "descripcion": "El color del semáforo rojo tiene el siguiente significado",
       "imagen": null,
       "alternativas": {
-        "a": "Los vehículos que enfrenten esta señal deben detenerse después dela línea deparada y antes del crucero peatonal",
+        "a": "Los vehículos que enfrenten esta señal deben detenerse después de la línea de parada y antes del crucero peatonal",
         "b": "Indica prevención",
         "c": "Si no hay crucero peatonal, los vehículos deben detenerse antes de llegar a la intersección",
         "d": "Los vehículos pueden detenerse encima del crucero peatonal"
@@ -516,12 +516,12 @@
     {
       "numero": "28",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Señalela respuesta correctarespecto a los cruces a nivel con vías férreas",
+      "descripcion": "Señale la respuesta correcta respecto a los cruces a nivel con vías férreas",
       "imagen": null,
       "alternativas": {
-        "a": "Los vehículos que transitan por la vía férreatienenpreferencia de paso",
-        "b": "Losquetransitan por la vía quecruza la vía férreatienenpreferencia de paso",
-        "c": "Los vehículos pueden cruzar por lugares distintos alos cruces a nivel establecidos",
+        "a": "Los vehículos que transitan por la vía férrea tienen preferencia de paso",
+        "b": "Los que transitan por la vía que cruza la vía férrea tienen preferencia de paso",
+        "c": "Los vehículos pueden cruzar por lugares distintos a los cruces a nivel establecidos",
         "d": "b y c son correctas"
       },
       "alternativas_imagenes": {
@@ -535,12 +535,12 @@
     {
       "numero": "29",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Ante la señal de color rojo del semáforo yla indicación delefectivo de la PNP asignado al control del tránsito de continuar la marcha, corresponde:",
+      "descripcion": "Ante la señal de color rojo del semáforo y la indicación del efectivo de la PNP asignado al control del tránsito de continuar la marcha, corresponde:",
       "imagen": null,
       "alternativas": {
         "a": "Detenerse hasta que cambie a luz verde",
         "b": "Continuar la marcha",
-        "c": "Verificar siexisteotra señal vertical que indique PARE,si es así, corresponde detenerse",
+        "c": "Verificar si existe otra señal vertical que indique PARE, si es así, corresponde detenerse",
         "d": "Todas son correctas."
       },
       "alternativas_imagenes": {
@@ -554,7 +554,7 @@
     {
       "numero": "30",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Lasseñales luminosas osemáforosse imponen o prevalecen sobre",
+      "descripcion": "Las señales luminosas o semáforos se imponen o prevalecen sobre",
       "imagen": null,
       "alternativas": {
         "a": "Las indicaciones del efectivo de la PNP asignado al control del Tránsito",
@@ -576,8 +576,8 @@
       "descripcion": "Tramitar y obtener el duplicado de una licencia de conducir que se encuentre cancelada causará:",
       "imagen": null,
       "alternativas": {
-        "a": "La suspensión dela licencia deconducir por un (1) año.",
-        "b": "La suspensión dela licencia deconducir por tres (3) años",
+        "a": "La suspensión de la licencia de conducir por un (1) año.",
+        "b": "La suspensión de la licencia de conducir por tres (3) años",
         "c": "La inhabilitación definitiva del conductor",
         "d": "La inhabilitación por tres (3) años del conductor"
       },
@@ -592,7 +592,7 @@
     {
       "numero": "32",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Lainfracción porconducir unvehículo automotor sin licencia de conducir está sancionada con una multa de 50% UIT y sanción no pecuniaria de",
+      "descripcion": "La infracción por conducir un vehículo automotor sin licencia de conducir está sancionada con una multa de 50% UIT y sanción no pecuniaria de",
       "imagen": null,
       "alternativas": {
         "a": "Inhabilitación para obtener licencia de conducir por 3 años",
@@ -611,7 +611,7 @@
     {
       "numero": "33",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Aumentar la velocidad cuando es alcanzado porotrovehículo quetiene la intención de sobrepasarlo o adelantarlo es una falta",
+      "descripcion": "Aumentar la velocidad cuando es alcanzado por otro vehículo que tiene la intención de sobrepasarlo o adelantarlo es una falta",
       "imagen": null,
       "alternativas": {
         "a": "Leve",
@@ -630,7 +630,7 @@
     {
       "numero": "34",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "No respetar los límites máximos o mínimosdevelocidad establecidos es una falta:",
+      "descripcion": "No respetar los límites máximos o mínimos de velocidad establecidos es una falta:",
       "imagen": null,
       "alternativas": {
         "a": "Leve",
@@ -649,13 +649,13 @@
     {
       "numero": "35",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Los conductores de vehículos que circulan denocheenlas víaspúblicas urbanas, ¿Con qué luces deben circular?",
+      "descripcion": "Los conductores de vehículos que circulan de noche en las vías públicas urbanas, ¿Con qué luces deben circular?",
       "imagen": null,
       "alternativas": {
         "a": "Bajas.",
         "b": "Altas.",
         "c": "Ninguna de las anteriores.",
-        "d": "Con las luces altas en las intersecciones ylas luces bajas en las avenidas"
+        "d": "Con las luces altas en las intersecciones y las luces bajas en las avenidas"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -672,7 +672,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Máximo cinco personas",
-        "b": "A la tripulación y pasajeros ocupantes y terceros no ocupantes de un vehículo automotorquesevieron afectados",
+        "b": "A la tripulación y pasajeros ocupantes y terceros no ocupantes de un vehículo automotor que se vieron afectados",
         "c": "Sólo al número de ocupantes del vehículo",
         "d": "a y b son correctas"
       },
@@ -687,7 +687,7 @@
     {
       "numero": "37",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Señalela respuesta correctarespecto a la circulación de un vehículo sin SOAT o CAT",
+      "descripcion": "Señale la respuesta correcta respecto a la circulación de un vehículo sin SOAT o CAT",
       "imagen": null,
       "alternativas": {
         "a": "Constituye una falta muy grave",
@@ -706,7 +706,7 @@
     {
       "numero": "38",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Según el Código de Tránsito, los conductores devehículos, debendar preferencia de paso a",
+      "descripcion": "Según el Código de Tránsito, los conductores de vehículos, deben dar preferencia de paso a",
       "imagen": null,
       "alternativas": {
         "a": "Los vehículos de emergencia y vehículos oficiales cuando éstos emitan las señales audibles",
@@ -725,11 +725,11 @@
     {
       "numero": "39",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Si conduciendo en la vía pública te aproximas aunvehículodetransporte escolar que se encuentra detenido recogiendoodejandoescolares ¿Cuál sería la acción a seguir?",
+      "descripcion": "Si conduciendo en la vía pública te aproximas a un vehículo de transporte escolar que se encuentra detenido recogiendo o dejando escolares ¿Cuál sería la acción a seguir?",
       "imagen": null,
       "alternativas": {
-        "a": "Detenerel vehículo y nocontinuar la marcha hasta que haya culminado el ascenso o descenso de los escolares",
-        "b": "Adelantarporellado izquierdo",
+        "a": "Detener el vehículo y no continuar la marcha hasta que haya culminado el ascenso o descenso de los escolares",
+        "b": "Adelantar por el lado izquierdo",
         "c": "Tocar el claxon con precaución",
         "d": "Ninguna de las anteriores"
       },
@@ -749,7 +749,7 @@
       "alternativas": {
         "a": "La presencia de un vehículo inmovilizado en la vía pública por alguna emergencia",
         "b": "Zonas de obras por reparación en la calzada",
-        "c": "Queelvehículoquela enfrenta debe detenerse",
+        "c": "Que el vehículo que la enfrenta debe detenerse",
         "d": "Ninguna de las anteriores"
       },
       "alternativas_imagenes": {
@@ -763,7 +763,7 @@
     {
       "numero": "41",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "La tramitación y obtención del duplicado de una Licencia de Conducir que ha sido objeto de suspensión, causara una suspensión del ___________en que se encontraba suspendida.",
+      "descripcion": "La tramitación y obtención del duplicado de una Licencia de Conducir que ha sido objeto de suspensión, causara una suspensión del ___________ en que se encontraba suspendida.",
       "imagen": null,
       "alternativas": {
         "a": "Doble de tiempo",
@@ -782,12 +782,12 @@
     {
       "numero": "42",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Laslucesintermitentesdeemergencia del vehículo deben utilizarse ______",
+      "descripcion": "Las luces intermitentes de emergencia del vehículo deben utilizarse ______",
       "imagen": null,
       "alternativas": {
         "a": "Para girar en las intersecciones y para advertir los cambios de carril",
-        "b": "Para indicar la detención, parada o estacionamiento en zona peligrosa olaejecución de maniobras riesgosas",
-        "c": "Cuando secambia de luz alta a luz baja",
+        "b": "Para indicar la detención, parada o estacionamiento en zona peligrosa o la ejecución de maniobras riesgosas",
+        "c": "Cuando se cambia de luz alta a luz baja",
         "d": "En cada intersección"
       },
       "alternativas_imagenes": {
@@ -801,7 +801,7 @@
     {
       "numero": "43",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Las vías de doble sentido tienen prioridad de paso en las intersecciones, respectoalas víasde un solo sentido de igual clasificación",
+      "descripcion": "Las vías de doble sentido tienen prioridad de paso en las intersecciones, respecto a las vías de un solo sentido de igual clasificación",
       "imagen": null,
       "alternativas": {
         "a": "No",
@@ -839,10 +839,10 @@
     {
       "numero": "45",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Está prohibido estacionar frente a entradas de garajes, a la salida de una vía privada, en las curvas, puentestúneles,zonasestrechas dela vía y",
+      "descripcion": "Está prohibido estacionar frente a entradas de garajes, a la salida de una vía privada, en las curvas, puentes túneles, zonas estrechas de la vía y",
       "imagen": null,
       "alternativas": {
-        "a": "En cualquier lugar queafectela seguridad, visibilidad ofluidez del tránsito o impida observar la señalización",
+        "a": "En cualquier lugar que afecte la seguridad, visibilidad o fluidez del tránsito o impida observar la señalización",
         "b": "Dentro de una intersección;",
         "c": "Frente a recintos militares y policiales",
         "d": "Todas son correctas."
@@ -858,12 +858,12 @@
     {
       "numero": "46",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "¿Quéseñal debeutilizar elconductor para disminuir la velocidad del vehículo cuando está en marcha?",
+      "descripcion": "¿Qué señal debe utilizar el conductor para disminuir la velocidad del vehículo cuando está en marcha?",
       "imagen": null,
       "alternativas": {
         "a": "Luces intermitentes, como regla general",
-        "b": "Antebrazoizquierdo y mano extendidos hacia abajofueradelvehículo, en caso de fuerza mayor",
-        "c": "Luces intermitenteso antebrazo izquierdo y mano extendidos hacia abajofueradelvehículo, indistintamente.",
+        "b": "Antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, en caso de fuerza mayor",
+        "c": "Luces intermitentes o antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, indistintamente.",
         "d": "a y b son correctas"
       },
       "alternativas_imagenes": {
@@ -877,12 +877,12 @@
     {
       "numero": "47",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Los vehículos que hayan sufrido un desperfecto o que por un accidente resulten dañados o destruidos, no debenpermanecer enla vía pública, entorpeciendo el tránsito, debenser retirados por el conductor:",
+      "descripcion": "Los vehículos que hayan sufrido un desperfecto o que por un accidente resulten dañados o destruidos, no deben permanecer en la vía pública, entorpeciendo el tránsito, deben ser retirados por el conductor:",
       "imagen": null,
       "alternativas": {
-        "a": "Alabrevedadposible, caso contrario serán retirados, por disposición de la autoridad competente, por cuenta del propietario",
-        "b": "Enuntiempodehasta 12 horas.",
-        "c": "Conunplazomáximo de hasta 24 horas",
+        "a": "A la brevedad posible, caso contrario serán retirados, por disposición de la autoridad competente, por cuenta del propietario",
+        "b": "En un tiempo de hasta 12 horas.",
+        "c": "Con un plazo máximo de hasta 24 horas",
         "d": "En un plazo de 18 horas."
       },
       "alternativas_imagenes": {
@@ -896,13 +896,13 @@
     {
       "numero": "48",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "De dos vehículos que se aproximen simultáneamente a una intersección noregulada, procedentesdedosvías diferentes, ¿Quién tiene preferencia de paso?",
+      "descripcion": "De dos vehículos que se aproximen simultáneamente a una intersección no regulada, procedentes de dos vías diferentes, ¿Quién tiene preferencia de paso?",
       "imagen": null,
       "alternativas": {
         "a": "Cualquiera de los dos",
         "b": "El que se aproxime por la derecha del otro",
         "c": "El que se aproxime por la izquierda del otro",
-        "d": "Elqueprimerotocael claxon"
+        "d": "El que primero toca el claxon"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -915,12 +915,12 @@
     {
       "numero": "49",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enunaintersección noregulada tiene preferencia de paso:",
+      "descripcion": "En una intersección no regulada tiene preferencia de paso:",
       "imagen": null,
       "alternativas": {
         "a": "El vehículo que ingresó primero a la intersección",
-        "b": "Elvehículo quetoque la bocina primero",
-        "c": "El vehículo quehaga cambio de luces primero",
+        "b": "El vehículo que toque la bocina primero",
+        "c": "El vehículo que haga cambio de luces primero",
         "d": "Cualquiera de los dos"
       },
       "alternativas_imagenes": {
@@ -972,7 +972,7 @@
     {
       "numero": "52",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Elsobrepaso oadelantamiento deun vehículo en movimiento, se efectúa, salvo excepciones, por la _____ retornando elvehículo después dela maniobra a su carril original",
+      "descripcion": "El sobrepaso o adelantamiento de un vehículo en movimiento, se efectúa, salvo excepciones, por la _____ retornando el vehículo después de la maniobra a su carril original",
       "imagen": null,
       "alternativas": {
         "a": "Derecha",
@@ -1010,10 +1010,10 @@
     {
       "numero": "54",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Son documentos que debenportarse obligatoriamente, durante la conducción del vehículo, yexhibirse cuando la autoridad competente lo solicite:",
+      "descripcion": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
       "imagen": null,
       "alternativas": {
-        "a": "D.N.I, SOAT o CAT- según corresponda-, y tarjeta deidentificación vehicular",
+        "a": "D.N.I, SOAT o CAT - según corresponda-, y tarjeta de identificación vehicular",
         "b": "Certificado de Inspección Técnica Vehicular vigente, licencias de conducir vigente",
         "c": "Contrato de compraventa del vehículo",
         "d": "Solo la c) es incorrecta."
@@ -1029,10 +1029,10 @@
     {
       "numero": "55",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "El conductor de un vehículo que es alcanzado porotro,quehizoconocer su Intención de adelantarlo o sobrepasarlo ¿Qué debe hacer?",
+      "descripcion": "El conductor de un vehículo que es alcanzado por otro, que hizo conocer su Intención de adelantarlo o sobrepasarlo ¿Qué debe hacer?",
       "imagen": null,
       "alternativas": {
-        "a": "Mantenersuposición y no aumentar su velocidad, hasta queel otro vehículo haya finalizado la maniobra.",
+        "a": "Mantener su posición y no aumentar su velocidad, hasta que el otro vehículo haya finalizado la maniobra.",
         "b": "Detenerse, para facilitar el adelantamiento",
         "c": "Aumentar la velocidad para facilitar la maniobra",
         "d": "Estacionarse en el lado derecho de la vía"
@@ -1071,7 +1071,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Sobre cualquier vehículo en las intersecciones de las calles no señalizadas con dispositivos de control o por la PNP",
-        "b": "Respecto a los vehículos quecruzan la acera para ingresar o salir de áreas de estacionamiento.",
+        "b": "Respecto a los vehículos que cruzan la acera para ingresar o salir de áreas de estacionamiento.",
         "c": "a y b son correctas",
         "d": "Ninguna de las anteriores"
       },
@@ -1086,12 +1086,12 @@
     {
       "numero": "58",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Responderverdaderoofalso respecto delo siguiente: \"El conductor deun vehículodebedarpreferenciadepaso alospeatonesqueesténconcluyendo el cruce en las intersecciones reguladas\"",
+      "descripcion": "Responder verdadero o falso respecto de lo siguiente: \"El conductor de un vehículo debe dar preferencia de paso a los peatones que estén concluyendo el cruce en las intersecciones reguladas\"",
       "imagen": null,
       "alternativas": {
         "a": "Verdadero",
         "b": "Falso",
-        "c": "Dependedel tipo de vehículo",
+        "c": "Depende del tipo de vehículo",
         "d": "No se encuentra regulado en el reglamento"
       },
       "alternativas_imagenes": {
@@ -1105,7 +1105,7 @@
     {
       "numero": "59",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Brazo y antebrazo izquierdo ymano extendidos hacia fuera del vehículo horizontalmente es la señal reglamentaria que debe hacer el conductor, encasos defuerzamayor, para voltear",
+      "descripcion": "Brazo y antebrazo izquierdo y mano extendidos hacia fuera del vehículo horizontalmente es la señal reglamentaria que debe hacer el conductor, en casos de fuerza mayor, para voltear",
       "imagen": null,
       "alternativas": {
         "a": "A la derecha",
@@ -1127,7 +1127,7 @@
       "descripcion": "¿Qué acción debe efectuar el conductor que se aproxime a otro vehículo que circula en sentido contrario?",
       "imagen": null,
       "alternativas": {
-        "a": "Seguirsumarcha con normalidad",
+        "a": "Seguir su marcha con normalidad",
         "b": "Reducir la velocidad",
         "c": "Aumentar la velocidad",
         "d": "Ninguna de las anteriores"
@@ -1143,7 +1143,7 @@
     {
       "numero": "61",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Elusodela luz_____,esobligatorio en carreteras",
+      "descripcion": "El uso de la luz _____, es obligatorio en carreteras",
       "imagen": null,
       "alternativas": {
         "a": "Baja",
@@ -1162,7 +1162,7 @@
     {
       "numero": "62",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Deben usarse para indicar la detención, parada oestacionamiento en Zonas peligrosas",
+      "descripcion": "Deben usarse para indicar la detención, parada o estacionamiento en Zonas peligrosas",
       "imagen": null,
       "alternativas": {
         "a": "Las luces de Posición",
@@ -1181,7 +1181,7 @@
     {
       "numero": "63",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "En los tramos de una vía con pendientepronunciada quepermitala circulación de un solo vehículo, el vehículo que asciende respecto al vehículo que desciende",
+      "descripcion": "En los tramos de una vía con pendiente pronunciada que permita la circulación de un solo vehículo, el vehículo que asciende respecto al vehículo que desciende",
       "imagen": null,
       "alternativas": {
         "a": "No tiene preferencia de paso.",
@@ -1200,7 +1200,7 @@
     {
       "numero": "64",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "La detención de la marcha de un vehículo en caso de emergencia, implica queelconductorhará usode ____,yantes dereiniciar la marcha, deberácerciorarse quepuedehacerlo sin riesgo.",
+      "descripcion": "La detención de la marcha de un vehículo en caso de emergencia, implica que el conductor hará uso de ____, y antes de reiniciar la marcha, deberá cerciorarse que puede hacerlo sin riesgo.",
       "imagen": null,
       "alternativas": {
         "a": "Las luces de posición",
@@ -1222,8 +1222,8 @@
       "descripcion": "¿Cuál de las siguientes alternativas corresponde asumir al conductor de un vehículo que llega a una vía preferencial?",
       "imagen": null,
       "alternativas": {
-        "a": "Tienederechodepaso parasuincorporación a la vía preferencial",
-        "b": "Debecederel paso e incorporarse cuando la vía esté despejada.",
+        "a": "Tiene derecho de paso para su incorporación a la vía preferencial",
+        "b": "Debe ceder el paso e incorporarse cuando la vía esté despejada.",
         "c": "Debe mantener su velocidad.",
         "d": "Ninguna de las anteriores"
       },
@@ -1238,7 +1238,7 @@
     {
       "numero": "66",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Alcambiar dedirección, unconductor debe:",
+      "descripcion": "Al cambiar de dirección, un conductor debe:",
       "imagen": null,
       "alternativas": {
         "a": "Señalizar toda la maniobra.",
@@ -1257,7 +1257,7 @@
     {
       "numero": "67",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "¿Sepuedeconducir unvehículoconel motor en punto neutro?",
+      "descripcion": "¿Se puede conducir un vehículo con el motor en punto neutro?",
       "imagen": null,
       "alternativas": {
         "a": "Algunas veces",
@@ -1276,7 +1276,7 @@
     {
       "numero": "68",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Según el Reglamento Nacional de Tránsito,enloscrucesdeferrocarril a nivel sin barreras ni semáforos: El conductor del vehículo debe asegurarse que no se aproxime un tren y la velocidad precautoria debe ser:",
+      "descripcion": "Según el Reglamento Nacional de Tránsito, en los cruces de ferrocarril a nivel sin barreras ni semáforos: El conductor del vehículo debe asegurarse que no se aproxime un tren y la velocidad precautoria debe ser:",
       "imagen": null,
       "alternativas": {
         "a": "Mayor a 70 Km/h",
@@ -1295,11 +1295,11 @@
     {
       "numero": "69",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Para girar ala izquierda, encaso de un imprevisto, debe hacerse la siguiente señal:",
+      "descripcion": "Para girar a la izquierda, en caso de un imprevisto, debe hacerse la siguiente señal:",
       "imagen": null,
       "alternativas": {
         "a": "Brazo, antebrazo izquierdo y mano extendidos horizontalmente hacia afuera del vehículo",
-        "b": "Antebrazoizquierdo y mano extendidos hacia arriba fuera del vehículo, haciendo ángulo recto con el brazo.",
+        "b": "Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, haciendo ángulo recto con el brazo.",
         "c": "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
         "d": "Ninguna de las anteriores"
       },
@@ -1333,7 +1333,7 @@
     {
       "numero": "71",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Laseñal reguladora de\"PARE\"tienela forma de un:",
+      "descripcion": "La señal reguladora de \"PARE\" tiene la forma de un:",
       "imagen": null,
       "alternativas": {
         "a": "Octágono",
@@ -1352,11 +1352,11 @@
     {
       "numero": "72",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Para girar aladerecha,encaso deun imprevisto,elconductordebehacerla siguiente señal:",
+      "descripcion": "Para girar a la derecha, en caso de un imprevisto, el conductor debe hacer la siguiente señal:",
       "imagen": null,
       "alternativas": {
         "a": "Brazo, antebrazo izquierdo y mano extendidos hacia afuera del vehículo.",
-        "b": "Antebrazoizquierdo y mano extendidos hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
+        "b": "Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
         "c": "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
         "d": "Ninguna de las anteriores"
       },
@@ -1371,7 +1371,7 @@
     {
       "numero": "73",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Acuáldelas alternativas corresponde la definición: “ Es la vía fuera del ámbito Urbano, destinada a la circulación de vehículos y eventualmente peatones y animales”",
+      "descripcion": "A cuál de las alternativas corresponde la definición: “ Es la vía fuera del ámbito Urbano, destinada a la circulación de vehículos y eventualmente peatones y animales”",
       "imagen": null,
       "alternativas": {
         "a": "Camino",
@@ -1390,10 +1390,10 @@
     {
       "numero": "74",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enlas intersecciones semaforizada o controladas porefectivosdela PNPo por señales oficiales",
+      "descripcion": "En las intersecciones semaforizada o controladas por efectivos de la PNP o por señales oficiales",
       "imagen": null,
       "alternativas": {
-        "a": "El peatón tiene derecho de paso respectoalosvehículos quegirenaladerechao alaizquierda,conlaluz verde",
+        "a": "El peatón tiene derecho de paso respecto a los vehículos que giren a la derecha o a la izquierda, con la luz verde",
         "b": "El vehículo siempre tiene derecho de paso.",
         "c": "a y b son correctas",
         "d": "Ninguna de las anteriores"
@@ -1409,7 +1409,7 @@
     {
       "numero": "75",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Cuál delas alternativas corresponde la definición: “Es el área común de calzadas que se cruzan o convergen”.",
+      "descripcion": "Cuál de las alternativas corresponde la definición: “Es el área común de calzadas que se cruzan o convergen”.",
       "imagen": null,
       "alternativas": {
         "a": "Intersección",
@@ -1428,7 +1428,7 @@
     {
       "numero": "76",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Encaso deaccidente detránsito con daños personales a terceros, la Policía Nacional delPerúretendrála licencia de conducir del conductor por el plazo máximo de______________________,a fin de determinar la inobservancia de las normas de tránsito.",
+      "descripcion": "En caso de accidente de tránsito con daños personales a terceros, la Policía Nacional del Perú retendrá la licencia de conducir del conductor por el plazo máximo de ______________________, a fin de determinar la inobservancia de las normas de tránsito.",
       "imagen": null,
       "alternativas": {
         "a": "48 horas",
@@ -1450,7 +1450,7 @@
       "descripcion": "Corresponde la retención de la licencia de conducir cuando",
       "imagen": null,
       "alternativas": {
-        "a": "Encaso deaccidente de tránsito con daños personales a terceros.",
+        "a": "En caso de accidente de tránsito con daños personales a terceros.",
         "b": "Cuando el conductor haya llegado al tope máximo de doscientos (200) o más puntos firmes",
         "c": "Por la comisión de infracción sobre la que deba recaer la sanción de suspensión, cancelación definitiva e inhabilitación del titular de la Licencia de Conducir.",
         "d": "a y c son correctas"
@@ -1466,12 +1466,12 @@
     {
       "numero": "78",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Respecto a las medidas preventivas establecidas en el T.U.OdeTránsito marque la respuesta correcta",
+      "descripcion": "Respecto a las medidas preventivas establecidas en el T.U.O de Tránsito marque la respuesta correcta",
       "imagen": null,
       "alternativas": {
         "a": "Tiene como objeto salvaguardar la seguridad y la vida de los usuarios de la vía",
         "b": "Es una medida impuesta junto con la papeleta de tránsito, cuando corresponda",
-        "c": "La retención de la licencia deconducir yel internamiento del vehículo son medidas preventivas",
+        "c": "La retención de la licencia de conducir y el internamiento del vehículo son medidas preventivas",
         "d": "Todas son correctas."
       },
       "alternativas_imagenes": {
@@ -1485,13 +1485,13 @@
     {
       "numero": "79",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "¿Cómo se denomina la medida preventiva, mediante el cual un vehículo es retirado desuubicación en caso constituya un peligro o un obstáculo para el tránsito y la seguridad pública?",
+      "descripcion": "¿Cómo se denomina la medida preventiva, mediante el cual un vehículo es retirado de su ubicación en caso constituya un peligro o un obstáculo para el tránsito y la seguridad pública?",
       "imagen": null,
       "alternativas": {
         "a": "Retención del vehículo",
         "b": "Remoción del vehículo",
         "c": "Internamiento del vehículo",
-        "d": "Traslado delvehículo hacia el domicilio del propietario"
+        "d": "Traslado del vehículo hacia el domicilio del propietario"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -1510,7 +1510,7 @@
         "a": "Retención del vehículo",
         "b": "Remoción del vehículo",
         "c": "Internamiento del vehículo",
-        "d": "Traslado delvehículo hacia el domicilio del propietario"
+        "d": "Traslado del vehículo hacia el domicilio del propietario"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -1523,7 +1523,7 @@
     {
       "numero": "81",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Lamedidapreventivaderetencióndel vehículo se aplica por un plazo máximo de",
+      "descripcion": "La medida preventiva de retención del vehículo se aplica por un plazo máximo de",
       "imagen": null,
       "alternativas": {
         "a": "12 horas",
@@ -1545,8 +1545,8 @@
       "descripcion": "La medida preventiva de internamiento del vehículo se aplica:",
       "imagen": null,
       "alternativas": {
-        "a": "Por la comisión de una infracción sobrela que expresamente recaiga esta medida en el Cuadro de Tipificación, Sanciones y Medidas Preventivas aplicables a las Infracciones al Tránsito Terrestre.",
-        "b": "Cuando el conductor sefugaabandonando el vehículo.",
+        "a": "Por la comisión de una infracción sobre la que expresamente recaiga esta medida en el Cuadro de Tipificación, Sanciones y Medidas Preventivas aplicables a las Infracciones al Tránsito Terrestre.",
+        "b": "Cuando el conductor se fuga abandonando el vehículo.",
         "c": "Cuando no se hayan superado las faltas o deficiencias que motivaron la medida preventiva de retención del vehículo dentro del plazo máximo de veinticuatro (24) horas.",
         "d": "Todas las anteriores"
       },
@@ -1565,7 +1565,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Se subsane o se supere la deficiencia que la motivó, cuando corresponda.",
-        "b": "Cuando secancelela multa enlos casos que de acuerdo con la norma, la sanción a imponer así lo prevea.",
+        "b": "Cuando se cancele la multa en los casos que de acuerdo con la norma, la sanción a imponer así lo prevea.",
         "c": "Se pague los derechos por permanencia en el depósito vehicular y remolque del vehículo.",
         "d": "Todas las anteriores"
       },
@@ -1580,7 +1580,7 @@
     {
       "numero": "84",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Elconductor será sancionado conla suspensión desulicencia deconducir por__________________,si acumula 100 puntos en un período de 24 meses, contados apartir dela fecha enque quedófirmeensedeadministrativa, la sanción vigente más antigua",
+      "descripcion": "El conductor será sancionado con la suspensión de su licencia de conducir por __________________, si acumula 100 puntos en un período de 24 meses, contados a partir de la fecha en que quedó firme en sede administrativa, la sanción vigente más antigua",
       "imagen": null,
       "alternativas": {
         "a": "12 meses",
@@ -1599,7 +1599,7 @@
     {
       "numero": "85",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Las infracciones leves que se encuentran tipificadas en el Texto Único Ordenado del Reglamento Nacional deTránsito, cuántos puntos generan:",
+      "descripcion": "Las infracciones leves que se encuentran tipificadas en el Texto Único Ordenado del Reglamento Nacional de Tránsito, cuántos puntos generan:",
       "imagen": null,
       "alternativas": {
         "a": "De 1 a 40 puntos",
@@ -1618,7 +1618,7 @@
     {
       "numero": "86",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Las infracciones graves que se encuentran tipificadas en el Texto Único Ordenado del Reglamento Nacional deTránsito, cuántos puntos generan:",
+      "descripcion": "Las infracciones graves que se encuentran tipificadas en el Texto Único Ordenado del Reglamento Nacional de Tránsito, cuántos puntos generan:",
       "imagen": null,
       "alternativas": {
         "a": "De 20 a 50 puntos",
@@ -1656,7 +1656,7 @@
     {
       "numero": "88",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Los puntos generados por cada infracción tendrán una vigencia de ____________________c,ontadosdesde lafechaenquequedefirmelasanción en sede administrativa.",
+      "descripcion": "Los puntos generados por cada infracción tendrán una vigencia de ____________________, contados desde la fecha en que quede firme la sanción en sede administrativa.",
       "imagen": null,
       "alternativas": {
         "a": "12 meses",
@@ -1680,7 +1680,7 @@
       "alternativas": {
         "a": "El uso de las vías privadas terrestres, en cuanto se relacionan con el tránsito",
         "b": "El uso de las vías públicas terrestres, en cuanto se relacionan con el tránsito",
-        "c": "El uso de las vías públicas yprivadas, en cuanto se relacionan con el tránsito",
+        "c": "El uso de las vías públicas y privadas, en cuanto se relacionan con el tránsito",
         "d": "El servicio de transporte terrestre de personas y mercancías en los diferentes ámbitos."
       },
       "alternativas_imagenes": {
@@ -1694,7 +1694,7 @@
     {
       "numero": "90",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Espartedelavíadestinada al usode peatones:",
+      "descripcion": "Es parte de la vía destinada al uso de peatones:",
       "imagen": null,
       "alternativas": {
         "a": "Berma",
@@ -1713,7 +1713,7 @@
     {
       "numero": "91",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "es parte de la vía destinada a la circulación de vehículos y eventualmenteal crucedepeatonesy animales",
+      "descripcion": "es parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales",
       "imagen": null,
       "alternativas": {
         "a": "Berma",
@@ -1732,7 +1732,7 @@
     {
       "numero": "92",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Es parte de una carretera ocamino contigua a la calzada no habilitada para la circulación de vehículo.",
+      "descripcion": "Es parte de una carretera o camino contigua a la calzada no habilitada para la circulación de vehículo.",
       "imagen": null,
       "alternativas": {
         "a": "Berma",
@@ -1775,8 +1775,8 @@
       "alternativas": {
         "a": "Parte de la vía destinada a la circulación de los vehículos y eventualmente al cruce de los peatones",
         "b": "Parte de la calzada destinada al tránsito de una fila de vehículos.",
-        "c": "Víarural destinada a la circulación de vehículos, peatones y animales",
-        "d": "Parte de una carretera ocamino contigua ala calzada"
+        "c": "Vía rural destinada a la circulación de vehículos, peatones y animales",
+        "d": "Parte de una carretera o camino contigua a la calzada"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -1792,7 +1792,7 @@
       "descripcion": "Se entiende por carretera a la:",
       "imagen": null,
       "alternativas": {
-        "a": "Vías principales que seencuentrandentrodel ámbito urbano destinadas a la circulación de vehículos.",
+        "a": "Vías principales que se encuentran dentro del ámbito urbano destinadas a la circulación de vehículos.",
         "b": "Vía fuera del ámbito urbano, destinada a la circulación de vehículos.",
         "c": "Vías urbanas.",
         "d": "todas las anteriores"
@@ -1811,7 +1811,7 @@
       "descripcion": "Se entiende por línea de parada a la:",
       "imagen": null,
       "alternativas": {
-        "a": "Línea transversal marcada en la calzada antesdela intersección queindica al conductor ellímitepara detenerel vehículo acatando la señal correspondiente.",
+        "a": "Línea transversal marcada en la calzada antes de la intersección que indica al conductor el límite para detener el vehículo acatando la señal correspondiente.",
         "b": "Líneas que se encuentran en los lugares del estacionamiento",
         "c": "Líneas que los vehículos utilizan para embarcar y desembarcar pasajeros",
         "d": "todas las anteriores"
@@ -1830,9 +1830,9 @@
       "descripcion": "Se define como zona rígida al:",
       "imagen": null,
       "alternativas": {
-        "a": "Áreadondeseprohíbe la circulación de vehículos",
-        "b": "Áreadondeseprohíbe la circulación de peatones",
-        "c": "Áreade la vía enla que se prohíbe el estacionamiento de vehículos las 24 horas del día.",
+        "a": "Área donde se prohíbe la circulación de vehículos",
+        "b": "Área donde se prohíbe la circulación de peatones",
+        "c": "Área de la vía en la que se prohíbe el estacionamiento de vehículos las 24 horas del día.",
         "d": "Todas las anteriores"
       },
       "alternativas_imagenes": {
@@ -1846,7 +1846,7 @@
     {
       "numero": "98",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "¿Cuál es la autoridad competente para aplicar las sanciones por acumulación depuntosenelámbito urbano?",
+      "descripcion": "¿Cuál es la autoridad competente para aplicar las sanciones por acumulación de puntos en el ámbito urbano?",
       "imagen": null,
       "alternativas": {
         "a": "Ministerio de Transportes y Comunicaciones",
@@ -1865,7 +1865,7 @@
     {
       "numero": "99",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "¿Cuálesla autoridad quegarantiza y controla la libre circulación en las vías públicas del territorio nacional?",
+      "descripcion": "¿Cuál es la autoridad que garantiza y controla la libre circulación en las vías públicas del territorio nacional?",
       "imagen": null,
       "alternativas": {
         "a": "Los inspectores de transportes de la SUTRAN",
@@ -1887,7 +1887,7 @@
       "descripcion": "Son elementos de la vía:",
       "imagen": null,
       "alternativas": {
-        "a": "Lacalzada, laaceray la berma",
+        "a": "La calzada, la acera y la berma",
         "b": "La cuneta y el estacionamiento",
         "c": "El separador central, el jardín y el equipamiento de servicios necesarios para su utilización.",
         "d": "todas las anteriores"
@@ -1907,8 +1907,8 @@
       "imagen": null,
       "alternativas": {
         "a": "Ejercer el comercio ambulatorio o estacionario.",
-        "b": "Destinar las calzadas aotrousoquenoseael tránsito.",
-        "c": "Recoger o dejar pasajeros enlugares no autorizados.",
+        "b": "Destinar las calzadas a otro uso que no sea el tránsito.",
+        "c": "Recoger o dejar pasajeros en lugares no autorizados.",
         "d": "Todas las anteriores."
       },
       "alternativas_imagenes": {
@@ -1941,7 +1941,7 @@
     {
       "numero": "103",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "____________________________tienen porlogeneral,formarectangular,con su mayor dimensión horizontal.",
+      "descripcion": "____________________________ tienen, por lo general, forma rectangular, con su mayor dimensión horizontal.",
       "imagen": null,
       "alternativas": {
         "a": ", a) Las señales reguladoras",
@@ -1960,10 +1960,10 @@
     {
       "numero": "104",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Laposición defrenteejecutada porel efectivo de la Policía Nacional del Perú,asignado al control detránsito significa:",
+      "descripcion": "La posición de frente ejecutada por el efectivo de la Policía Nacional del Perú, asignado al control de tránsito significa:",
       "imagen": null,
       "alternativas": {
-        "a": "Obligación de detenersedequienasílo enfrente.",
+        "a": "Obligación de detenerse de quien así lo enfrente.",
         "b": "Continuar la marcha por el carril izquierdo de la calzada.",
         "c": "Continuar la marcha.",
         "d": "Ninguna de las anteriores."
@@ -1979,12 +1979,12 @@
     {
       "numero": "105",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Lassanciones pecuniarias impuestas por la comisión de infracciones de tránsito pueden ser inscritas enlas Centrales Privadas deInformación de Riesgos, en los siguientes casos:",
+      "descripcion": "Las sanciones pecuniarias impuestas por la comisión de infracciones de tránsito pueden ser inscritas en las Centrales Privadas de Información de Riesgos, en los siguientes casos:",
       "imagen": null,
       "alternativas": {
         "a": "Cuando no se paguen en el plazo establecido desde que la resolución de sanción adquirió firmeza",
         "b": "Cuando la sanción sea firme, es decir, no haya sido impugnada por el conductor infractor",
-        "c": "Cuando nosepaguen al díasiguiente apartir delcuallaresolución de sanción adquirió firmeza",
+        "c": "Cuando no se paguen al día siguiente a partir del cual la resolución de sanción adquirió firmeza",
         "d": "a y b"
       },
       "alternativas_imagenes": {
@@ -1998,7 +1998,7 @@
     {
       "numero": "106",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enzonasurbanas, ellímitemáximode velocidad en calles y jirones es de",
+      "descripcion": "En zonas urbanas, el límite máximo de velocidad en calles y jirones es de",
       "imagen": null,
       "alternativas": {
         "a": "30km/h",
@@ -2017,7 +2017,7 @@
     {
       "numero": "107",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enzonasurbanas, ellímitemáximode velocidad en avenidas es de",
+      "descripcion": "En zonas urbanas, el límite máximo de velocidad en avenidas es de",
       "imagen": null,
       "alternativas": {
         "a": "30km/h",
@@ -2036,7 +2036,7 @@
     {
       "numero": "108",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enzonasurbanas, ellímitemáximode velocidad en vías expresas es de",
+      "descripcion": "En zonas urbanas, el límite máximo de velocidad en vías expresas es de",
       "imagen": null,
       "alternativas": {
         "a": "30km/h",
@@ -2055,7 +2055,7 @@
     {
       "numero": "109",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enzonasurbanas, ellímitemáximode velocidad en zona escolar es de",
+      "descripcion": "En zonas urbanas, el límite máximo de velocidad en zona escolar es de",
       "imagen": null,
       "alternativas": {
         "a": "30km/h",
@@ -2074,7 +2074,7 @@
     {
       "numero": "110",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Enzonasurbanas, ellímitemáximode velocidad en zona de hospital es de",
+      "descripcion": "En zonas urbanas, el límite máximo de velocidad en zona de hospital es de",
       "imagen": null,
       "alternativas": {
         "a": "30km/h",
@@ -2112,7 +2112,7 @@
     {
       "numero": "112",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Encaminos rurales, ellímitemáximo de velocidad es de",
+      "descripcion": "En caminos rurales, el límite máximo de velocidad es de",
       "imagen": null,
       "alternativas": {
         "a": "30km/h",
@@ -2150,11 +2150,11 @@
     {
       "numero": "114",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "Ellímitemínimodevelocidad enzona urbana y carreteras es de:",
+      "descripcion": "El límite mínimo de velocidad en zona urbana y carreteras es de:",
       "imagen": null,
       "alternativas": {
         "a": "30km/h",
-        "b": "Lamitad delmáximo fijado paracadatipode vía",
+        "b": "La mitad del máximo fijado para cada tipo de vía",
         "c": "20 km/h",
         "d": "15 km/h"
       },
@@ -2169,12 +2169,12 @@
     {
       "numero": "115",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "La sanción por conducir con presencia dealcohol enlasangreenproporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobado con el examen respectivo o por negarse al mismo yquehaya participado enun accidente de tránsito es:",
+      "descripcion": "La sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobado con el examen respectivo o por negarse al mismo y que haya participado en un accidente de tránsito es:",
       "imagen": null,
       "alternativas": {
         "a": "Inhabilitación para obtener una licencia de conducir por 3 años",
         "b": "Cancelación de licencia de conducir e inhabilitación definitiva para obtener una licencia de conducir",
-        "c": "Multade100% dela UIT (S/. 4,050.00)",
+        "c": "Multa de 100 % de la UIT (S/. 4,050.00)",
         "d": "b y c son correctas"
       },
       "alternativas_imagenes": {
@@ -2188,12 +2188,12 @@
     {
       "numero": "116",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "La sanción por conducir con presencia dealcohol enlasangreenproporción mayor a lo previsto en el Código Penal, bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo o por negarse al mismo es:",
+      "descripcion": "La sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo o por negarse al mismo es:",
       "imagen": null,
       "alternativas": {
         "a": "Inhabilitación para obtener una licencia de conducir por 3 años",
-        "b": "Suspensión de la licencia deconducir por 1 año ymulta de50% de la UIT (S/. 2,025.00)",
-        "c": "Suspensión de la licencia deconducir por 3años ymultade50% de la UIT (S/. 2,025.00)",
+        "b": "Suspensión de la licencia de conducir por 1 año y multa de 50 % de la UIT (S/. 2,025.00)",
+        "c": "Suspensión de la licencia de conducir por 3 años y multa de 50 % de la UIT (S/. 2,025.00)",
         "d": "Ninguna es correcta"
       },
       "alternativas_imagenes": {
@@ -2207,12 +2207,12 @@
     {
       "numero": "117",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "La sanción por conducir unvehículo automotor sin tener licencia de conducir o permiso provisional es:",
+      "descripcion": "La sanción por conducir un vehículo automotor sin tener licencia de conducir o permiso provisional es:",
       "imagen": null,
       "alternativas": {
         "a": "Inhabilitación para obtener una licencia de conducir por 3 años",
-        "b": "Multade50% dela UIT (S/. 2,025.00)",
-        "c": "Inhabilitación para obteneruna licencia de conducir por 1 año y multadel50%delaUIT (S/. 2,025.00)",
+        "b": "Multa de 50 % de la UIT (S/. 2,025.00)",
+        "c": "Inhabilitación para obtener una licencia de conducir por 1 año y multa del 50 % de la UIT (S/. 2,025.00)",
         "d": "a y b"
       },
       "alternativas_imagenes": {
@@ -2226,12 +2226,12 @@
     {
       "numero": "118",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
-      "descripcion": "La sanción por conducir vehículos estando la licencia de conducir retenida, suspendida o estando inhabilitado para obtenerlicencia de conducir es:",
+      "descripcion": "La sanción por conducir vehículos estando la licencia de conducir retenida, suspendida o estando inhabilitado para obtener licencia de conducir es:",
       "imagen": null,
       "alternativas": {
         "a": "Suspensión de la licencia de conducir por 3 años, si ésta estuviese retenida y cancelación definitiva de la licencia de conducir, si la licencia estuviere suspendida.",
-        "b": "Suspensión de la licencia deconducir por 1 año,si éstaestuviese retenidaymultade50% de la UIT (S/. 2,025.00)",
-        "c": "Multade100% dela UIT (S/. 4,050.00)",
+        "b": "Suspensión de la licencia de conducir por 1 año, si ésta estuviese retenida y multa de 50 % de la UIT (S/. 2,025.00)",
+        "c": "Multa de 100 % de la UIT (S/. 4,050.00)",
         "d": "a y c son correctas"
       },
       "alternativas_imagenes": {
@@ -2245,7 +2245,7 @@
     {
       "numero": "119",
       "tema": "Inspección Técnica Vehicular",
-      "descripcion": "Lasinspecciones técnicas vehiculares serealizan segúnel_____dígitodela placa única nacional de rodaje",
+      "descripcion": "Las inspecciones técnicas vehiculares se realizan según el _____ dígito de la placa única nacional de rodaje",
       "imagen": null,
       "alternativas": {
         "a": "Primer",
@@ -2264,12 +2264,12 @@
     {
       "numero": "120",
       "tema": "Inspección Técnica Vehicular",
-      "descripcion": "Señalela respuesta correctarespecto alafrecuencia,antigüedad yvigencia de las inspecciones técnicas vehiculares",
+      "descripcion": "Señale la respuesta correcta respecto a la frecuencia, antigüedad y vigencia de las inspecciones técnicas vehiculares",
       "imagen": null,
       "alternativas": {
         "a": "Varia dependiendo la categoría del vehículo",
-        "b": "La mayoría de vehículos deben pasar la inspección técnica a partir delnovenoañode antigüedad",
-        "c": "La vigencia del certificado de inspección técnica puedeser6o12meses dependiendo la categoría del vehículo",
+        "b": "La mayoría de vehículos deben pasar la inspección técnica a partir del noveno año de antigüedad",
+        "c": "La vigencia del certificado de inspección técnica puede ser 6 o 12 meses dependiendo la categoría del vehículo",
         "d": "a y c son correctas"
       },
       "alternativas_imagenes": {
@@ -2283,7 +2283,7 @@
     {
       "numero": "121",
       "tema": "Inspección Técnica Vehicular",
-      "descripcion": "LasInspecciones TécnicasVehiculares se realizan de acuerdo a los siguientes factores",
+      "descripcion": "Las Inspecciones Técnicas Vehiculares se realizan de acuerdo a los siguientes factores",
       "imagen": null,
       "alternativas": {
         "a": "Categoría de los vehículos",
@@ -2302,7 +2302,7 @@
     {
       "numero": "122",
       "tema": "Inspección Técnica Vehicular",
-      "descripcion": "Una observación _______ en la inspección técnica vehicular, es aquella decarácter documentario y/o técnico que no exige una nueva inspección técnica vehicular, debiendo subsanarse las observaciones efectuadas antesdela siguiente Inspección Técnica Vehicular.",
+      "descripcion": "Una observación _______ en la inspección técnica vehicular, es aquella de carácter documentario y/o técnico que no exige una nueva inspección técnica vehicular, debiendo subsanarse las observaciones efectuadas antes de la siguiente Inspección Técnica Vehicular.",
       "imagen": null,
       "alternativas": {
         "a": "Grave",
@@ -2321,7 +2321,7 @@
     {
       "numero": "123",
       "tema": "Inspección Técnica Vehicular",
-      "descripcion": "Una observación ______ en la inspección técnica vehicular, es aquella que ocasiona la desaprobación de la Inspección Técnica Vehicular, exigiendo su subsanación mediante una re- inspección sobre las deficiencias consignadas dentrodelplazomáximo de 30 días.",
+      "descripcion": "Una observación ______ en la inspección técnica vehicular, es aquella que ocasiona la desaprobación de la Inspección Técnica Vehicular, exigiendo su subsanación mediante una re- inspección sobre las deficiencias consignadas dentro del plazo máximo de 30 días.",
       "imagen": null,
       "alternativas": {
         "a": "Grave",
@@ -2340,7 +2340,7 @@
     {
       "numero": "124",
       "tema": "Inspección Técnica Vehicular",
-      "descripcion": "Una observación ______, en la inspección técnica vehicular, es aquella que ocasionan la desaprobación de la Inspección Técnica Vehicular, debiéndose trasladar el vehículo al taller de mantenimiento mecánico, que determineelpropietario oconductor, para la subsanación de la misma.",
+      "descripcion": "Una observación ______, en la inspección técnica vehicular, es aquella que ocasionan la desaprobación de la Inspección Técnica Vehicular, debiéndose trasladar el vehículo al taller de mantenimiento mecánico, que determine el propietario o conductor, para la subsanación de la misma.",
       "imagen": null,
       "alternativas": {
         "a": "Grave",
@@ -2397,13 +2397,13 @@
     {
       "numero": "127",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "ElReglamentoNacional deVehículos, señala que el parachoques delantero y posterior:",
+      "descripcion": "El Reglamento Nacional de Vehículos, señala que el parachoques delantero y posterior:",
       "imagen": null,
       "alternativas": {
         "a": "Puede contar con filos angulares cortantes",
         "b": "No debe exceder el ancho del vehículo",
-        "c": "Puedeonoexcederel ancho del vehículo",
-        "d": "Puede exceder el ancho delvehículo pero sin filos angulares cortantes"
+        "c": "Puede o no exceder el ancho del vehículo",
+        "d": "Puede exceder el ancho del vehículo pero sin filos angulares cortantes"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -2419,9 +2419,9 @@
       "descripcion": "¿Qué definición corresponde a luz alta en el Reglamento Nacional de Vehículos?",
       "imagen": null,
       "alternativas": {
-        "a": "Luz utilizada para alumbrar una mayor distancia dela vía por delante del vehículo, tambiéndenominada de carretera.",
-        "b": "Luz utilizada para alumbrar una mayor distancia de la vía, tambiéndenominadaluz complementaria.",
-        "c": "Hazdeluzabiertoyde corto alcance ubicado enlapartedelanteradel vehículo para alumbrar la carretera en condiciones de neblina.",
+        "a": "Luz utilizada para alumbrar una mayor distancia de la vía por delante del vehículo, también denominada de carretera.",
+        "b": "Luz utilizada para alumbrar una mayor distancia de la vía, también denominada luz complementaria.",
+        "c": "Haz de luz abierto y de corto alcance ubicado en la parte delantera del vehículo para alumbrar la carretera en condiciones de neblina.",
         "d": "Ninguna de las anteriores"
       },
       "alternativas_imagenes": {
@@ -2435,11 +2435,11 @@
     {
       "numero": "129",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "El ReglamentoNacional deVehículos define a los frenos como:",
+      "descripcion": "El Reglamento Nacional de Vehículos define a los frenos como:",
       "imagen": null,
       "alternativas": {
         "a": "Conjunto de elementos del vehículo que permite reducir la velocidad, detener o asegurar la parada del vehículo.",
-        "b": "Conjunto de elementos del vehículo que permite reducir la velocidad para detener elvehículo, sin queello signifique asegurar la parada del vehículo.",
+        "b": "Conjunto de elementos del vehículo que permite reducir la velocidad para detener el vehículo, sin que ello signifique asegurar la parada del vehículo.",
         "c": "Conjunto de elementos del vehículo que sirve solo para detener completamente el vehículo.",
         "d": "Ninguna de las anteriores"
       },
@@ -2457,8 +2457,8 @@
       "descripcion": "¿Cuáles son los códigos de identificación vehicular?",
       "imagen": null,
       "alternativas": {
-        "a": "Número de identificación vehicular, númerodeserie,número de motor.",
-        "b": "Número de chasis, placa derodaje,numero de motor.",
+        "a": "Número de identificación vehicular, número de serie, número de motor.",
+        "b": "Número de chasis, placa de rodaje, numero de motor.",
         "c": "VIN, número de chasis, placa de rodaje.",
         "d": "Solo número de chasis y VIN."
       },
@@ -2473,7 +2473,7 @@
     {
       "numero": "131",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Todos los vehículos deben tener la configuración original defábrica para el tránsito por el lado ____ de la vía.",
+      "descripcion": "Todos los vehículos deben tener la configuración original de fábrica para el tránsito por el lado ____ de la vía.",
       "imagen": null,
       "alternativas": {
         "a": "Izquierdo",
@@ -2492,13 +2492,13 @@
     {
       "numero": "132",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Losvehículosquecirculan porlasvías delSNTT,debencontar concarrocería diseñada paraevitar salpicaduras de las ruedas y/o protegida por guardafangos",
+      "descripcion": "Los vehículos que circulan por las vías del SNTT, deben contar con carrocería diseñada para evitar salpicaduras de las ruedas y/o protegida por guardafangos",
       "imagen": null,
       "alternativas": {
         "a": "Si.",
         "b": "No.",
-        "c": "Dependedel tamaño del vehículo.",
-        "d": "No se encuentra regulado si debecontar o no."
+        "c": "Depende del tamaño del vehículo.",
+        "d": "No se encuentra regulado si debe contar o no."
       },
       "alternativas_imagenes": {
         "a": null,
@@ -2511,7 +2511,7 @@
     {
       "numero": "133",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Los vehículos podrán contar con accesorios (defensas especiales delanteras, barras antivuelco, parrillas detecho,alerones, spoilers, viseras, estribos, etc.) siempre y cuando estos tengan bordes ______.",
+      "descripcion": "Los vehículos podrán contar con accesorios (defensas especiales delanteras, barras antivuelco, parrillas de techo, alerones, spoilers, viseras, estribos, etc.) siempre y cuando estos tengan bordes ______.",
       "imagen": null,
       "alternativas": {
         "a": "Redondeados y con ángulos salientes para su visibilidad",
@@ -2530,7 +2530,7 @@
     {
       "numero": "134",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Los vehículos podrán contar con accesorios (defensas especiales delanteras, barras antivuelco, parrillas detecho,alerones, spoilers, viseras, estribos, etc.) siempre y cuando estos no excedan más de ______de los extremos delantero y posterior del vehículo.",
+      "descripcion": "Los vehículos podrán contar con accesorios (defensas especiales delanteras, barras antivuelco, parrillas de techo, alerones, spoilers, viseras, estribos, etc.) siempre y cuando estos no excedan más de ______ de los extremos delantero y posterior del vehículo.",
       "imagen": null,
       "alternativas": {
         "a": "250 mm.",
@@ -2553,9 +2553,9 @@
       "imagen": null,
       "alternativas": {
         "a": "Como mínimo deben cubrir solo el área frente al piloto.",
-        "b": "Como mínimo deben cubrir el área frenteal piloto y copiloto.",
-        "c": "El limpiaparabrisas debecubrir el área del piloto y copiloto, y el lavabrisas solo el área frente al piloto.",
-        "d": "Noestareguladoenel área mínima, solo la exigibilidad detenerun solo limpiaparabrisas para el piloto."
+        "b": "Como mínimo deben cubrir el área frente al piloto y copiloto.",
+        "c": "El limpiaparabrisas debe cubrir el área del piloto y copiloto, y el lavabrisas solo el área frente al piloto.",
+        "d": "No esta regulado en el área mínima, solo la exigibilidad de tener un solo limpiaparabrisas para el piloto."
       },
       "alternativas_imagenes": {
         "a": null,
@@ -2571,10 +2571,10 @@
       "descripcion": "¿Cuales son las herramientas como mínimo que debe tener un vehículo para cambiar la rueda?, según el Reglamento Nacional de Vehículos",
       "imagen": null,
       "alternativas": {
-        "a": "Gata completa que soportealmenosel30% del peso bruto del vehículo y llave de ruedas",
-        "b": "Solo seexige la gata completaquesoporteal menos el 40% del peso bruto del vehículo.",
-        "c": "Gata completa que soporte el peso bruto del vehículo,llave deruedas y seguro de las ruedas.",
-        "d": "Set de llaves hexagonales y gata completaquesoporteal menos el 30% del peso neto del vehículo."
+        "a": "Gata completa que soporte al menos el 30% del peso bruto del vehículo y llave de ruedas",
+        "b": "Solo se exige la gata completa que soporte al menos el 40% del peso bruto del vehículo.",
+        "c": "Gata completa que soporte el peso bruto del vehículo, llave de ruedas y seguro de las ruedas.",
+        "d": "Set de llaves hexagonales y gata completa que soporte al menos el 30% del peso neto del vehículo."
       },
       "alternativas_imagenes": {
         "a": null,
@@ -2587,13 +2587,13 @@
     {
       "numero": "137",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Aquéseconsideran Vías Terrestres según el Reglamento Nacional de Vehículos?",
+      "descripcion": "¿A qué se consideran Vías Terrestres según el Reglamento Nacional de Vehículos?",
       "imagen": null,
       "alternativas": {
         "a": "Sistema de vías públicas incluyendo las concesionadas, así como las privadas, por donde circulan los vehículos, a excepción de las vías férreas.",
-        "b": "Vía en que los vehículos ylaspersonas sólo tienenoportunidad a ingresar o salir de ella, por los lugares y bajo las condiciones fijadas porlaAutoridad competente",
+        "b": "Vía en que los vehículos y las personas sólo tienen oportunidad a ingresar o salir de ella, por los lugares y bajo las condiciones fijadas por la Autoridad competente",
         "c": "Sistema de vías públicas, incluyendo las vías férreas, sin considerar las concesionadas y las privadas.",
-        "d": "Víadentrodelámbito urbano, destinada a la circulación devehículos y peatones y eventualmente de animales"
+        "d": "Vía dentro del ámbito urbano, destinada a la circulación de vehículos y peatones y eventualmente de animales"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -2606,12 +2606,12 @@
     {
       "numero": "138",
       "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
-      "descripcion": "Quedanexcluidos dela coberturadel Seguro Obligatorio de Accidentes de Tránsito, los accidentes:",
+      "descripcion": "Quedan excluidos de la cobertura del Seguro Obligatorio de Accidentes de Tránsito, los accidentes:",
       "imagen": null,
       "alternativas": {
         "a": "Causados en carreras de automóviles y otras competencias de vehículos motorizados",
-        "b": "Enlugares fuera del territorio nacional",
-        "c": "Enintersecciones sin señalización apropiada.",
+        "b": "En lugares fuera del territorio nacional",
+        "c": "En intersecciones sin señalización apropiada.",
         "d": "a y b son correctas"
       },
       "alternativas_imagenes": {
@@ -2625,7 +2625,7 @@
     {
       "numero": "139",
       "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
-      "descripcion": "¿Queobligación tieneel conductor o propietario delvehículodeproducirse un accidente con un vehículo coberturado con SOAT?",
+      "descripcion": "¿Que obligación tiene el conductor o propietario del vehículo de producirse un accidente con un vehículo coberturado con SOAT?",
       "imagen": null,
       "alternativas": {
         "a": "Dar aviso a los bomberos",
@@ -2682,12 +2682,12 @@
     {
       "numero": "142",
       "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
-      "descripcion": "¿Es requisito que se investigue previamenteelaccidente para quese brinde la cobertura del SOAT o CAT?",
+      "descripcion": "¿Es requisito que se investigue previamente el accidente para que se brinde la cobertura del SOAT o CAT?",
       "imagen": null,
       "alternativas": {
         "a": "No",
         "b": "Solo si hay víctimas mortales",
-        "c": "Solo si el conductor se encontraba enpresunto estado de ebriedad",
+        "c": "Solo si el conductor se encontraba en presunto estado de ebriedad",
         "d": "Si"
       },
       "alternativas_imagenes": {
@@ -2720,7 +2720,7 @@
     {
       "numero": "144",
       "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
-      "descripcion": "¿Antequiéndenunciolafaltadepago de coberturas por parte de la compañía de seguros?",
+      "descripcion": "¿Ante quién denuncio la falta de pago de coberturas por parte de la compañía de seguros?",
       "imagen": null,
       "alternativas": {
         "a": "Ante el MTC",
@@ -2739,12 +2739,12 @@
     {
       "numero": "145",
       "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
-      "descripcion": "Si usted contrata un SOAT en la \"Región A\"yrealiza un viaje consu vehículo a la \"Región B\",en la cual tiene un accidente de tránsito. ¿Se encuentra coberturado por el SOAT?",
+      "descripcion": "Si usted contrata un SOAT en la \"Región A\" y realiza un viaje con su vehículo a la \"Región B\", en la cual tiene un accidente de tránsito. ¿Se encuentra coberturado por el SOAT?",
       "imagen": null,
       "alternativas": {
         "a": "No, porque el SOAT solo tiene validez para la Región en donde fue contratado.",
-        "b": "Esválida lacobertura solo en Regiones continuas.",
-        "c": "Sí, porque la coberturadelSOATesde alcance nacional.",
+        "b": "Es válida la cobertura solo en Regiones continuas.",
+        "c": "Sí, porque la cobertura del SOAT es de alcance nacional.",
         "d": "Depende de las condiciones en las cuales se contrató el SOAT"
       },
       "alternativas_imagenes": {
@@ -2758,12 +2758,12 @@
     {
       "numero": "146",
       "tema": "Reglamento de Placa Única Nacional de Rodaje",
-      "descripcion": "¿Qué vehículos se encuentran obligados aexhibir laPlaca Únicade Rodaje?",
+      "descripcion": "¿Qué vehículos se encuentran obligados a exhibir la Placa Única de Rodaje?",
       "imagen": null,
       "alternativas": {
         "a": "Todos los vehículos automotores",
-        "b": "Vehículos de transporte terrestrecon excepción de los remolques y semiremolques",
-        "c": "Todo vehículo que circule por las vías públicas, conexcepción a los semiremolques",
+        "b": "Vehículos de transporte terrestre con excepción de los remolques y semiremolques",
+        "c": "Todo vehículo que circule por las vías públicas, con excepción a los semiremolques",
         "d": "Todo vehículo motorizado y no motorizado que circule en las vías públicas terrestre"
       },
       "alternativas_imagenes": {
@@ -2777,12 +2777,12 @@
     {
       "numero": "147",
       "tema": "Reglamento de Placa Única Nacional de Rodaje",
-      "descripcion": "Losremolquesysemiremolquesllevan la placa del vehículo automotor que los hala.",
+      "descripcion": "Los remolques y semiremolques llevan la placa del vehículo automotor que los hala.",
       "imagen": null,
       "alternativas": {
         "a": "En ningún caso",
         "b": "Si.",
-        "c": "Dependedel tipo de estructura que se remolca.",
+        "c": "Depende del tipo de estructura que se remolca.",
         "d": "Solo los remolques con un peso bruto menor de 750 Kg."
       },
       "alternativas_imagenes": {
@@ -2801,8 +2801,8 @@
       "alternativas": {
         "a": "No",
         "b": "Si",
-        "c": "Sí,previaautorización de la autoridad competente",
-        "d": "Sí,siemprequeseade un color distinto a los elementos obligatorios de la placa única de rodaje"
+        "c": "Sí, previa autorización de la autoridad competente",
+        "d": "Sí, siempre que sea de un color distinto a los elementos obligatorios de la placa única de rodaje"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -2815,7 +2815,7 @@
     {
       "numero": "149",
       "tema": "Reglamento de Placa Única Nacional de Rodaje",
-      "descripcion": "¿Quétiempodevigenciatienelaplaca única de rodaje?",
+      "descripcion": "¿Qué tiempo de vigencia tiene la placa única de rodaje?",
       "imagen": null,
       "alternativas": {
         "a": "15 años",
@@ -2834,12 +2834,12 @@
     {
       "numero": "150",
       "tema": "Reglamento de Placa Única Nacional de Rodaje",
-      "descripcion": "¿Quéentidad realiza la entregadela placa única de rodaje?",
+      "descripcion": "¿Qué entidad realiza la entrega de la placa única de rodaje?",
       "imagen": null,
       "alternativas": {
         "a": "SUNARP",
         "b": "SUNARP y MTC",
-        "c": "MTC,através deuna Entidad Concesionaria",
+        "c": "MTC, a través de una Entidad Concesionaria",
         "d": "a y c son correctas"
       },
       "alternativas_imagenes": {
@@ -2853,13 +2853,13 @@
     {
       "numero": "151",
       "tema": "Reglamento de Placa Única Nacional de Rodaje",
-      "descripcion": "¿Enquélugar delvehículo deberser colocada la placa única de rodaje?",
+      "descripcion": "¿En qué lugar del vehículo deber ser colocada la placa única de rodaje?",
       "imagen": null,
       "alternativas": {
         "a": "en la parte delantera y posterior del vehículo",
-        "b": "las planchas metálicas en la parte delanterayposteriordel vehículo, y la calcomanía holográfica (tercera placa) en la parte superior derecha del parabrisas delantero",
-        "c": "las planchas metálicas en la parte delanterayposteriordel vehículo, y la calcomanía holográfica (tercera placa) en la parte inferior derecha del parabrisas delantero",
-        "d": "las planchas metálicas en la parte delanterayposteriordel vehículo, y la calcomanía holográfica (tercera placa) en la parte inferior derecha del parabrisas trasero"
+        "b": "las planchas metálicas en la parte delantera y posterior del vehículo, y la calcomanía holográfica (tercera placa) en la parte superior derecha del parabrisas delantero",
+        "c": "las planchas metálicas en la parte delantera y posterior del vehículo, y la calcomanía holográfica (tercera placa) en la parte inferior derecha del parabrisas delantero",
+        "d": "las planchas metálicas en la parte delantera y posterior del vehículo, y la calcomanía holográfica (tercera placa) en la parte inferior derecha del parabrisas trasero"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -2872,12 +2872,12 @@
     {
       "numero": "152",
       "tema": "Primeros Auxilios en caso de accidentes de tránsito",
-      "descripcion": "¿Cuál esla primeraacción arealizar en caso de un accidente de tránsito?",
+      "descripcion": "¿Cuál es la primera acción a realizar en caso de un accidente de tránsito?",
       "imagen": null,
       "alternativas": {
         "a": "Examinar a las víctimas",
         "b": "Inmovilizar a las víctimas",
-        "c": "Llamaralosnúmeros de emergencia (116 Bomberos; 105 Policía)",
+        "c": "Llamar a los números de emergencia (116 Bomberos; 105 Policía)",
         "d": "Todas las anteriores"
       },
       "alternativas_imagenes": {
@@ -2891,11 +2891,11 @@
     {
       "numero": "153",
       "tema": "Primeros Auxilios en caso de accidentes de tránsito",
-      "descripcion": "¿Cómo mantener el estado de conciencia deunapersona herida en un accidente de tránsito?",
+      "descripcion": "¿Cómo mantener el estado de conciencia de una persona herida en un accidente de tránsito?",
       "imagen": null,
       "alternativas": {
         "a": "Aplicando paños de agua fría en la nuca",
-        "b": "Realizando constantes preguntas; tales como: ¿Cómo te llamas?, ¿Dóndeestás?, etc.",
+        "b": "Realizando constantes preguntas; tales como: ¿Cómo te llamas?, ¿Dónde estás?, etc.",
         "c": "Aplicando paños de agua fría en la frente",
         "d": "Tomando su pulso"
       },
@@ -2910,7 +2910,7 @@
     {
       "numero": "154",
       "tema": "Primeros Auxilios en caso de accidentes de tránsito",
-      "descripcion": "¿Una vez contacatdo al nùmero de emergencia, qué acciones debe realizar conunapersonaheridaenun accidente de tránsito?",
+      "descripcion": "¿Una vez contacatdo al nùmero de emergencia, qué acciones debe realizar con una persona herida en un accidente de tránsito?",
       "imagen": null,
       "alternativas": {
         "a": "Girar su torso hacia la derecha",
@@ -2933,8 +2933,8 @@
       "imagen": null,
       "alternativas": {
         "a": "Colando los dedos índice y medio sobre un lado del cuello, presionando ligeramente las arterias carótidas",
-        "b": "Realizando una leve presión conlapalma de la mano en la parte central del pecho del herido",
-        "c": "Colocando unodelas orejas enelpechodela víctima para escuchar los latidos del corazón",
+        "b": "Realizando una leve presión con la palma de la mano en la parte central del pecho del herido",
+        "c": "Colocando uno de las orejas en el pecho de la víctima para escuchar los latidos del corazón",
         "d": "N.A"
       },
       "alternativas_imagenes": {
@@ -2948,7 +2948,7 @@
     {
       "numero": "156",
       "tema": "Primeros Auxilios en caso de accidentes de tránsito",
-      "descripcion": "Para detenerunahemorragia profusa se debe:",
+      "descripcion": "Para detener una hemorragia profusa se debe:",
       "imagen": null,
       "alternativas": {
         "a": "Poner una venda en la zona afectada del cuerpo",
@@ -3085,9 +3085,9 @@
       "imagen": null,
       "alternativas": {
         "a": "Aprobación del examen de habilidades en la conducción",
-        "b": "Nocontar conmultas pendientes depago por infracciones de tránsito",
+        "b": "No contar con multas pendientes de pago por infracciones de tránsito",
         "c": "Aprobación del examen de conocimientos",
-        "d": "No estar suspendido o inhabilitado, según la información delRegistro Nacional de Sanciones"
+        "d": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -3103,9 +3103,9 @@
       "descripcion": "Es un requisito para la revalidación de la licencia de conducir",
       "imagen": null,
       "alternativas": {
-        "a": "Nocontar conmultas pendientes depago por infracciones de tránsito",
+        "a": "No contar con multas pendientes de pago por infracciones de tránsito",
         "b": "Presentar constancia de estudios",
-        "c": "Presentar certificado deantecedentespenales o judiciales",
+        "c": "Presentar certificado de antecedentes penales o judiciales",
         "d": "Acreditar experiencia previa en la conducción"
       },
       "alternativas_imagenes": {
@@ -3123,9 +3123,9 @@
       "imagen": null,
       "alternativas": {
         "a": "Acreditar experiencia previa en la conducción",
-        "b": "Nocontar conmultas pendientes de pago",
+        "b": "No contar con multas pendientes de pago",
         "c": "Aprobación del examen de conocimientos",
-        "d": "No estar suspendido o inhabilitado, según la información delRegistro Nacional de Sanciones"
+        "d": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -3141,9 +3141,9 @@
       "descripcion": "Es un requisito para la revalidación de la licencia de conducir",
       "imagen": null,
       "alternativas": {
-        "a": "No estar suspendido o inhabilitado, según la información delRegistro Nacional de Sanciones",
+        "a": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones",
         "b": "Presentar récord del conductor",
-        "c": "Presentar certificado deantecedentespenales o judiciales",
+        "c": "Presentar certificado de antecedentes penales o judiciales",
         "d": "Acreditar experiencia previa en la conducción"
       },
       "alternativas_imagenes": {
@@ -3161,9 +3161,9 @@
       "imagen": null,
       "alternativas": {
         "a": "Presentar constancia de estudios",
-        "b": "Nocontar conmultas pendientes depago por infracciones de tránsito",
+        "b": "No contar con multas pendientes de pago por infracciones de tránsito",
         "c": "Aprobación del examen de conocimientos",
-        "d": "No estar suspendido o inhabilitado, según la información delRegistro Nacional de Sanciones"
+        "d": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -3181,7 +3181,7 @@
       "alternativas": {
         "a": "Certificado de Salud para licencias de conducir",
         "b": "Presentar récord del conductor",
-        "c": "Presentar certificado deantecedentespenales o judiciales",
+        "c": "Presentar certificado de antecedentes penales o judiciales",
         "d": "Acreditar experiencia previa en la conducción"
       },
       "alternativas_imagenes": {
@@ -3195,7 +3195,7 @@
     {
       "numero": "169",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "La vigencia del certificado desalud paralicencias deconducir esde____ para que el postulante concluya satisfactoriamente la obtención de todos los demás requisitos establecidos en el presente reglamento.",
+      "descripcion": "La vigencia del certificado de salud para licencias de conducir es de ____ para que el postulante concluya satisfactoriamente la obtención de todos los demás requisitos establecidos en el presente reglamento.",
       "imagen": null,
       "alternativas": {
         "a": "3 meses",
@@ -3214,7 +3214,7 @@
     {
       "numero": "170",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "La solicitud de revalidación de la licencia de conducir puede presentarse dentrodelos ______días calendario anteriores a la fecha de revalidación consignada en la licencia de conducir o encualquier momento después de culminado su plazo devigencia, sin perjuicio dela prohibición de conducción con una licencia vencida.",
+      "descripcion": "La solicitud de revalidación de la licencia de conducir puede presentarse dentro de los ______ días calendario anteriores a la fecha de revalidación consignada en la licencia de conducir o en cualquier momento después de culminado su plazo de vigencia, sin perjuicio de la prohibición de conducción con una licencia vencida.",
       "imagen": null,
       "alternativas": {
         "a": "15",
@@ -3233,7 +3233,7 @@
     {
       "numero": "171",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "Como consecuencia del diagnóstico efectuado enla evaluación médica y psicológica, se pueden consignar restricciones en la licencia de conducir como las siguientes:",
+      "descripcion": "Como consecuencia del diagnóstico efectuado en la evaluación médica y psicológica, se pueden consignar restricciones en la licencia de conducir como las siguientes:",
       "imagen": null,
       "alternativas": {
         "a": "Con lentes correctores externos o de contacto",
@@ -3252,7 +3252,7 @@
     {
       "numero": "172",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "Como consecuencia del diagnóstico efectuado enla evaluación médica y psicológica, se pueden consignar restricciones en la licencia de conducir como las siguientes:",
+      "descripcion": "Como consecuencia del diagnóstico efectuado en la evaluación médica y psicológica, se pueden consignar restricciones en la licencia de conducir como las siguientes:",
       "imagen": null,
       "alternativas": {
         "a": "Con dos espejos retrovisores laterales y espejo con ángulo de 180 grados.",
@@ -3275,7 +3275,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Reducir el consumo de combustible",
-        "b": "Reducirlaemisión de gases contaminantes",
+        "b": "Reducir la emisión de gases contaminantes",
         "c": "Reducir la tasa de accidentes",
         "d": "Todas las anteriores"
       },
@@ -3294,8 +3294,8 @@
       "imagen": null,
       "alternativas": {
         "a": "Antes de colocarse el cinturón de seguridad",
-        "b": "Almismo tiempoque se regula el retrovisor",
-        "c": "Cuandotodoestelisto para partir",
+        "b": "Al mismo tiempo que se regula el retrovisor",
+        "c": "Cuando todo este listo para partir",
         "d": "Antes de alistarte para partir."
       },
       "alternativas_imagenes": {
@@ -3328,7 +3328,7 @@
     {
       "numero": "176",
       "tema": "Conducción eficiente",
-      "descripcion": "Tenerun neumático (llanta) conuna presión pordebajodelaqueindica el fabricante __________un __________ consumo de combustible.",
+      "descripcion": "Tener un neumático (llanta) con una presión por debajo de la que indica el fabricante __________ un __________ consumo de combustible.",
       "imagen": null,
       "alternativas": {
         "a": "Ocasiona/Menor",
@@ -3347,7 +3347,7 @@
     {
       "numero": "177",
       "tema": "Conducción eficiente",
-      "descripcion": "Tenerun neumático (llanta) conuna presiónporencimadelaqueindica el fabricante ________la amortiguación propia del neumático.",
+      "descripcion": "Tener un neumático (llanta) con una presión por encima de la que indica el fabricante ________ la amortiguación propia del neumático.",
       "imagen": null,
       "alternativas": {
         "a": "Aumenta",
@@ -3366,7 +3366,7 @@
     {
       "numero": "178",
       "tema": "Conducción eficiente",
-      "descripcion": "Unuso excesivo del freno,______el consumo de combustible.",
+      "descripcion": "Un uso excesivo del freno, ______ el consumo de combustible.",
       "imagen": null,
       "alternativas": {
         "a": "Optimiza",
@@ -3404,7 +3404,7 @@
     {
       "numero": "180",
       "tema": "Conducción eficiente",
-      "descripcion": "Tenerun neumático (llanta) conuna presión pordebajodelaqueindica el fabricante ______ un __________ desgaste.",
+      "descripcion": "Tener un neumático (llanta) con una presión por debajo de la que indica el fabricante ______ un __________ desgaste.",
       "imagen": null,
       "alternativas": {
         "a": "Ocasiona/mayor",
@@ -3427,7 +3427,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Indica la velocidad del giro del motor en revoluciones por minuto (RPM) y refleja su funcionamiento.",
-        "b": "Suvigilancia permite queelconductorrealice los cambios demarcha en los rangos recomendados",
+        "b": "Su vigilancia permite que el conductor realice los cambios de marcha en los rangos recomendados",
         "c": "Ayuda a reducir el consumo de combustible.",
         "d": "Todas las anteriores"
       },
@@ -3442,7 +3442,7 @@
     {
       "numero": "182",
       "tema": "Conducción eficiente",
-      "descripcion": "Según el proyecto Planificación ante el Cambio Climático del Perú,elsector transportes es la fuente más importantede______,específicamente el_______.",
+      "descripcion": "Según el proyecto Planificación ante el Cambio Climático del Perú, el sector transportes es la fuente más importante de ______, específicamente el _______.",
       "imagen": null,
       "alternativas": {
         "a": "Emisiones de CO2/Transporte Terrestre",
@@ -3484,7 +3484,7 @@
       "imagen": null,
       "alternativas": {
         "a": "La seguridad de las personas es más importante que la conducción eficiente",
-        "b": "Debe mantenerse la velocidad constante aunque esto implique avanzar rápidamente en esquinas yanteelcruce de peatones.",
+        "b": "Debe mantenerse la velocidad constante aunque esto implique avanzar rápidamente en esquinas y ante el cruce de peatones.",
         "c": "Siempre se debe priorizar la seguridad antes que la economía del combustible",
         "d": "a y c son correctas"
       },
@@ -3499,7 +3499,7 @@
     {
       "numero": "185",
       "tema": "Conducción eficiente",
-      "descripcion": "Siseencuentradetenidopormásde1 minuto se recomienda",
+      "descripcion": "Si se encuentra detenido por más de 1 minuto se recomienda",
       "imagen": null,
       "alternativas": {
         "a": "Apagar el motor del vehículo",
@@ -3518,12 +3518,12 @@
     {
       "numero": "186",
       "tema": "Mecánica Básica para la conducción",
-      "descripcion": "Labaja presión delos neumáticos de un vehículo:",
+      "descripcion": "La baja presión de los neumáticos de un vehículo:",
       "imagen": null,
       "alternativas": {
         "a": "Disminuirá el rozamiento y el calentamiento de los neumáticos.",
         "b": "Aumentará el rozamiento y el calentamiento de los neumáticos.",
-        "c": "Disminuirá el rozamiento yaumentará el enfriamiento de los neumáticos.",
+        "c": "Disminuirá el rozamiento y aumentará el enfriamiento de los neumáticos.",
         "d": "Reducirá la velocidad"
       },
       "alternativas_imagenes": {
@@ -3537,7 +3537,7 @@
     {
       "numero": "187",
       "tema": "Mecánica Básica para la conducción",
-      "descripcion": "¿Quéesimportantepara uncorrecto mantenimiento básico del vehículo?",
+      "descripcion": "¿Qué es importante para un correcto mantenimiento básico del vehículo?",
       "imagen": null,
       "alternativas": {
         "a": "Llevar frecuentemente el vehículo al taller.",
@@ -3560,7 +3560,7 @@
       "imagen": null,
       "alternativas": {
         "a": "La capacidad de pegarse sobre las superficies a lubricar.",
-        "b": "La mayor o menor facilidad parapasarpor las canalizaciones.",
+        "b": "La mayor o menor facilidad para pasar por las canalizaciones.",
         "c": "La capacidad de no descomponerse y permanecer inalterable con el tiempo.",
         "d": "Su capacidad higroscópica"
       },
@@ -3575,12 +3575,12 @@
     {
       "numero": "189",
       "tema": "Mecánica Básica para la conducción",
-      "descripcion": "¿Quéesuncuentarevoluciones enel panel de instrumentos?",
+      "descripcion": "¿Qué es un cuenta revoluciones en el panel de instrumentos?",
       "imagen": null,
       "alternativas": {
         "a": "Un indicador del número de vueltas que da el motor por una unidad de tiempo",
-        "b": "Un indicador del número de vueltas que daelneumáticoporuna unidad de tiempo",
-        "c": "Un indicador del número de vueltas que daeldiferencial poruna unidad de tiempo",
+        "b": "Un indicador del número de vueltas que da el neumático por una unidad de tiempo",
+        "c": "Un indicador del número de vueltas que da el diferencial por una unidad de tiempo",
         "d": "Un indicador del número de vueltas que da la caja de cambios por una unidad de tiempo"
       },
       "alternativas_imagenes": {
@@ -3594,7 +3594,7 @@
     {
       "numero": "190",
       "tema": "Mecánica Básica para la conducción",
-      "descripcion": "¿Cómosedebenajustar las tuercasde las ruedas?",
+      "descripcion": "¿Cómo se deben ajustar las tuercas de las ruedas?",
       "imagen": null,
       "alternativas": {
         "a": "No tiene orden",
@@ -3617,7 +3617,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Que la batería esta descargada",
-        "b": "Elalternador dejode funcionar",
+        "b": "El alternador dejo de funcionar",
         "c": "Que la batería esta desconectada",
         "d": "Que la batería se encuentra con mucha carga"
       },
@@ -3655,7 +3655,7 @@
       "imagen": null,
       "alternativas": {
         "a": "Señales de control en el tablero.",
-        "b": "Indicadores luminosos alalcance de la vista.",
+        "b": "Indicadores luminosos al alcance de la vista.",
         "c": "Todas las anteriores.",
         "d": "Ninguna de las anteriores"
       },
@@ -3670,13 +3670,13 @@
     {
       "numero": "194",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Los vehículos de categoría L deben contar con dispositivos para descansar lospiesdelconductoryde las personas transportadas ?",
+      "descripcion": "¿Los vehículos de categoría L deben contar con dispositivos para descansar los pies del conductor y de las personas transportadas?",
       "imagen": null,
       "alternativas": {
         "a": "Si",
         "b": "No",
         "c": "Depende de la carrocería del vehículo de categoría L",
-        "d": "Solodebencontarcon dispositivos para descansar los pies del conductor, no siendo obligatorio para las personas transportadas."
+        "d": "Solo deben contar con dispositivos para descansar los pies del conductor, no siendo obligatorio para las personas transportadas."
       },
       "alternativas_imagenes": {
         "a": null,
@@ -3708,7 +3708,7 @@
     {
       "numero": "196",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Según la clasificación vehicular, un vehículo automotordetresruedas se clasifica en la(s) categoría(s):",
+      "descripcion": "Según la clasificación vehicular, un vehículo automotor de tres ruedas se clasifica en la(s) categoría(s):",
       "imagen": null,
       "alternativas": {
         "a": "L1, L2 y L3.",
@@ -3727,7 +3727,7 @@
     {
       "numero": "197",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Aquédistancia como mínimo debe ser audible el sonido de la bocina para los vehículos de categoría L?",
+      "descripcion": "¿A qué distancia como mínimo debe ser audible el sonido de la bocina para los vehículos de categoría L?",
       "imagen": null,
       "alternativas": {
         "a": "100 metros",
@@ -3746,7 +3746,7 @@
     {
       "numero": "198",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Quécolor estapermitidoparalaluz alta adicional en un vehículo de categoría L?",
+      "descripcion": "¿ Qué color esta permitido para la luz alta adicional en un vehículo de categoría L?",
       "imagen": null,
       "alternativas": {
         "a": "Solo Blanco",
@@ -3822,7 +3822,7 @@
     {
       "numero": "202",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "Las licencias deconducir deClase B tienen una vigencia de…",
+      "descripcion": "Las licencias de conducir de Clase B tienen una vigencia de…",
       "imagen": null,
       "alternativas": {
         "a": "3 años",
@@ -3860,13 +3860,13 @@
     {
       "numero": "204",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "Esunrequisito para la obtención de una licencia de conducir B-II A",
+      "descripcion": "Es un requisito para la obtención de una licencia de conducir B-II A",
       "imagen": null,
       "alternativas": {
         "a": "Tener una edad mínima de 18 años",
-        "b": "Presentar constancia deestudios queacredite que el postulante culminó la secundaria.",
+        "b": "Presentar constancia de estudios que acredite que el postulante culminó la secundaria.",
         "c": "Presentar una declaración jurada de no tener antecedentes penales ni judiciales",
-        "d": "Presentar certificado denotenerantecedentes penales ni judiciales"
+        "d": "Presentar certificado de no tener antecedentes penales ni judiciales"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -3881,7 +3881,7 @@
     {
       "numero": "1",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Es obligatorio que un vehículo de categoría L5 cuente con luz de posición delantera yluz deposición posterior?",
+      "descripcion": "¿Es obligatorio que un vehículo de categoría L5 cuente con luz de posición delantera y luz de posición posterior?",
       "imagen": null,
       "alternativas": {
         "a": "No, es opcional",
@@ -3900,7 +3900,7 @@
     {
       "numero": "2",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Aquédistancia como mínimo debe ser audible el sonido de la bocina para los vehículos de categoría L?",
+      "descripcion": "¿A qué distancia como mínimo debe ser audible el sonido de la bocina para los vehículos de categoría L?",
       "imagen": null,
       "alternativas": {
         "a": "100 metros",
@@ -3919,12 +3919,12 @@
     {
       "numero": "3",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Los vehículos menores destinados al servicio de transporte público especial depasajeros debencumplir con lo siguiente:",
+      "descripcion": "Los vehículos menores destinados al servicio de transporte público especial de pasajeros deben cumplir con lo siguiente:",
       "imagen": null,
       "alternativas": {
-        "a": "SerdelacategoríaL5, contar conparachoques posterior y láminas retroflectivas.",
-        "b": "Serdela categoríaL3 y contar con parachoque posterior",
-        "c": "SerdelacategoríaLy contar con láminas retroflectivas",
+        "a": "Ser de la categoría L5, contar con parachoques posterior y láminas retroflectivas.",
+        "b": "Ser de la categoría L3 y contar con parachoque posterior",
+        "c": "Ser de la categoría L y contar con láminas retroflectivas",
         "d": "Solo ser de la categoría L5"
       },
       "alternativas_imagenes": {
@@ -3941,10 +3941,10 @@
       "descripcion": "¿Cuál definición corresponde a un vehículo de categoría L5?",
       "imagen": null,
       "alternativas": {
-        "a": "Vehículos de tres ruedas asimétricas al eje longitudinal del vehículo, demas de50 cm3 o una velocidad mayor de 50 km/h.",
-        "b": "Vehículos de tres ruedas,dehasta 50cm3 y velocidad máxima de 50 km/h",
-        "c": "Vehículos de dos ruedas, de mas de 50 cm3o velocidad mayor a 50 km/h.",
-        "d": "Vehículos de tres ruedas simétricas aleje longitudinal del vehículo, demas de50 cm3 ovelocidad mayor a 50 km/hycuyo peso bruto vehicular no exceda de una tonelada."
+        "a": "Vehículos de tres ruedas asimétricas al eje longitudinal del vehículo, de mas de 50 cm3 o una velocidad mayor de 50 km/h.",
+        "b": "Vehículos de tres ruedas, de hasta 50 cm3 y velocidad máxima de 50 km/h",
+        "c": "Vehículos de dos ruedas, de mas de 50 cm3 o velocidad mayor a 50 km/h.",
+        "d": "Vehículos de tres ruedas simétricas al eje longitudinal del vehículo, de mas de 50 cm3 o velocidad mayor a 50 km/h y cuyo peso bruto vehicular no exceda de una tonelada."
       },
       "alternativas_imagenes": {
         "a": null,
@@ -3957,7 +3957,7 @@
     {
       "numero": "5",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Quécolor estapermitidoparalaluz alta adicional en un vehículo de categoría L?",
+      "descripcion": "¿ Qué color esta permitido para la luz alta adicional en un vehículo de categoría L?",
       "imagen": null,
       "alternativas": {
         "a": "Solo Blanco",
@@ -3976,7 +3976,7 @@
     {
       "numero": "6",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Quécolor estapermitidoparalaluz direccional posterior en un vehículo de categoría L5?",
+      "descripcion": "¿ Qué color esta permitido para la luz direccional posterior en un vehículo de categoría L5?",
       "imagen": null,
       "alternativas": {
         "a": "Amarillo o Rojo",
@@ -4014,7 +4014,7 @@
     {
       "numero": "8",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Esobligatorio contar conelsistema defrenodeestacionamiento paralos vehículos de categoría L5?",
+      "descripcion": "¿Es obligatorio contar con el sistema de freno de estacionamiento para los vehículos de categoría L5?",
       "imagen": null,
       "alternativas": {
         "a": "Si",
@@ -4033,13 +4033,13 @@
     {
       "numero": "9",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Cuáles son los instrumentos e indicadores deluzque debencontar vehículos de categoría L de forma obligatoria?",
+      "descripcion": "Cuáles son los instrumentos e indicadores de luz que deben contar vehículos de categoría L de forma obligatoria?",
       "imagen": null,
       "alternativas": {
-        "a": "Luzdetestigo deluz alta, luz de testigo de direccionales, velocímetro y odómetro eindicador denivel de combustible.",
-        "b": "Luz de testigo de direccionales, velocímetro, odómetroy Tacógrafo",
-        "c": "Luzdetestigo deluz alta, luz de testigo de direccionales, velocímetro y odómetro.",
-        "d": "indicador denivelde combustible, Luz de testigo de luz alta y velocímetro"
+        "a": "Luz de testigo de luz alta, luz de testigo de direccionales, velocímetro y odómetro e indicador de nivel de combustible.",
+        "b": "Luz de testigo de direccionales, velocímetro, odómetro y Tacógrafo",
+        "c": "Luz de testigo de luz alta, luz de testigo de direccionales, velocímetro y odómetro.",
+        "d": "indicador de nivel de combustible, Luz de testigo de luz alta y velocímetro"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -4052,12 +4052,12 @@
     {
       "numero": "10",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Dóndedebeubicarse el depósito de combustible para un vehículo de categoría L2 y L5?",
+      "descripcion": "¿Dónde debe ubicarse el depósito de combustible para un vehículo de categoría L2 y L5?",
       "imagen": null,
       "alternativas": {
-        "a": "Deacuerdo alDiseño del fabricante. Si el vehículo no es completamente cerrado podráubicarse comoen los vehículos de las categorías L1 y L3.",
-        "b": "En la parte externa del vehículo. Si el vehículo no es completamente cerrado podráubicarse comoen los vehículos de las categorías L1 y L3.",
-        "c": "Enlaparteexternade la cabina",
+        "a": "De acuerdo al Diseño del fabricante. Si el vehículo no es completamente cerrado podrá ubicarse como en los vehículos de las categorías L1 y L3.",
+        "b": "En la parte externa del vehículo. Si el vehículo no es completamente cerrado podrá ubicarse como en los vehículos de las categorías L1 y L3.",
+        "c": "En la parte externa de la cabina",
         "d": "Ninguna de las anteriores"
       },
       "alternativas_imagenes": {
@@ -4071,12 +4071,12 @@
     {
       "numero": "11",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Cuál esla ubicación quedebetener el tubo de escape de un vehículo categoría L5?",
+      "descripcion": "¿Cuál es la ubicación que debe tener el tubo de escape de un vehículo categoría L5?",
       "imagen": null,
       "alternativas": {
-        "a": "Lasalida deltubode escape debe descargar las emisiones delmotor hacia atrás del vehículo",
-        "b": "Lasalida deltubode escape debe estar ubicada a300mmcomo máximo del extremo posterior del compartimiento de pasajeros y descargar las emisiones delmotor hacia atrás del vehículo",
-        "c": "Elextremodeltubode escape no debe sobresalir delvehículoy debe descargar las emisiones delmotorpor la parte posterior o lateral izquierda del vehículo",
+        "a": "La salida del tubo de escape debe descargar las emisiones del motor hacia atrás del vehículo",
+        "b": "La salida del tubo de escape debe estar ubicada a 300mm como máximo del extremo posterior del compartimiento de pasajeros y descargar las emisiones del motor hacia atrás del vehículo",
+        "c": "El extremo del tubo de escape no debe sobresalir del vehículo y debe descargar las emisiones del motor por la parte posterior o lateral izquierda del vehículo",
         "d": "Ninguna de las anteriores"
       },
       "alternativas_imagenes": {
@@ -4090,7 +4090,7 @@
     {
       "numero": "12",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Lasláminas deretroreflectivas deben estar compuestas por:",
+      "descripcion": "Las láminas de retroreflectivas deben estar compuestas por:",
       "imagen": null,
       "alternativas": {
         "a": "Blanca y Anaranjada",
@@ -4109,7 +4109,7 @@
     {
       "numero": "13",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "Las láminas deben colocarse a no menosde____mmynomásde____m sobre la superficie de la carretera.",
+      "descripcion": "Las láminas deben colocarse a no menos de ____ mm y no más de ____ m sobre la superficie de la carretera.",
       "imagen": null,
       "alternativas": {
         "a": "300 y 1,60",
@@ -4204,7 +4204,7 @@
     {
       "numero": "18",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "Las licencias deconducir deClase B tienen una vigencia de…",
+      "descripcion": "Las licencias de conducir de Clase B tienen una vigencia de…",
       "imagen": null,
       "alternativas": {
         "a": "3 años",
@@ -4280,13 +4280,13 @@
     {
       "numero": "22",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "descripcion": "Esunrequisito para la obtención de una licencia de conducir B-II C",
+      "descripcion": "Es un requisito para la obtención de una licencia de conducir B-II C",
       "imagen": null,
       "alternativas": {
-        "a": "Presentar una Constancia de Finalización del Programa deFormación de Conductores - COFIPRO expedida por una Escuela de Conductores",
-        "b": "Presentar constancia deestudios queacredite que el postulante culminó la secundaria.",
+        "a": "Presentar una Constancia de Finalización del Programa de Formación de Conductores - COFIPRO expedida por una Escuela de Conductores",
+        "b": "Presentar constancia de estudios que acredite que el postulante culminó la secundaria.",
         "c": "Presentar una declaración jurada de no tener antecedentes penales ni judiciales",
-        "d": "Presentar certificado denotenerantecedentes penales ni judiciales"
+        "d": "Presentar certificado de no tener antecedentes penales ni judiciales"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -4360,8 +4360,8 @@
       "imagen": null,
       "alternativas": {
         "a": "Vías arteriales",
-        "b": "En las vías urbanas que determine la Municipalidad Distrital competente, donde no exista oseadeficienteel servicio de transporte público urbano masivo.",
-        "c": "En las vías alimentadoras de rutas consideradas enelplan Regulador de cada Municipalidad Provincial, donde no exista oseadeficienteel servicio de transporte público urbano masivo.",
+        "b": "En las vías urbanas que determine la Municipalidad Distrital competente, donde no exista o sea deficiente el servicio de transporte público urbano masivo.",
+        "c": "En las vías alimentadoras de rutas consideradas en el plan Regulador de cada Municipalidad Provincial, donde no exista o sea deficiente el servicio de transporte público urbano masivo.",
         "d": "b y c son correctas"
       },
       "alternativas_imagenes": {
@@ -4375,7 +4375,7 @@
     {
       "numero": "27",
       "tema": "Regulación de actividad de transporte",
-      "descripcion": "La velocidad máxima decirculación deunvehículo menorempleadopara el Servicio Especial no excederá los",
+      "descripcion": "La velocidad máxima de circulación de un vehículo menor empleado para el Servicio Especial no excederá los",
       "imagen": null,
       "alternativas": {
         "a": "30 kilómetros por hora",
@@ -4394,12 +4394,12 @@
     {
       "numero": "29",
       "tema": "Regulación de actividad de transporte",
-      "descripcion": "En caso de accidentes de tránsito cómodebeproceder untransportista autorizado",
+      "descripcion": "En caso de accidentes de tránsito cómo debe proceder un transportista autorizado",
       "imagen": null,
       "alternativas": {
-        "a": "seguir circulando a fin deevitar congestión vehicular",
+        "a": "seguir circulando a fin de evitar congestión vehicular",
         "b": "seguir circulando y advertir a las autoridades del hecho con posterioridad al evento",
-        "c": "comunicar de inmediato a las autoridades competentes,efectuando las acciones necesarias paraquela(s) víctima(s) reciba(n) una atención adecuada y oportuna",
+        "c": "comunicar de inmediato a las autoridades competentes, efectuando las acciones necesarias para que la(s) víctima(s) reciba(n) una atención adecuada y oportuna",
         "d": "comunicar de inmediato a los Bomberos, realizando las acciones necesarias para evitar congestión vehicular"
       },
       "alternativas_imagenes": {
@@ -4419,7 +4419,7 @@
         "a": "Amonestación verbal",
         "b": "únicamente multa",
         "c": "multa fijada por la autoridad municipal",
-        "d": "retención e internamiento del vehículo, siendo liberado previo pagode la multa fijada por autoridad municipal"
+        "d": "retención e internamiento del vehículo, siendo liberado previo pago de la multa fijada por autoridad municipal"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -4470,12 +4470,12 @@
     {
       "numero": "33",
       "tema": "Regulación de actividad de transporte",
-      "descripcion": "Esunaobligación deunconductorde un vehículo que transporta carga",
+      "descripcion": "Es una obligación de un conductor de un vehículo que transporta carga",
       "imagen": null,
       "alternativas": {
-        "a": "quela carga solo se encuentre debidamente acomodada",
+        "a": "que la carga solo se encuentre debidamente acomodada",
         "b": "que la carga no sobrepase las dimensiones de la carrocería",
-        "c": "que la carga esté adecuadamente acomodada, sujeta y cubierta de forma tal quenopongaenpeligro a las personas uotros vehículos usuarios dela vía",
+        "c": "que la carga esté adecuadamente acomodada, sujeta y cubierta de forma tal que no ponga en peligro a las personas u otros vehículos usuarios de la vía",
         "d": "b y c son correctas"
       },
       "alternativas_imagenes": {
@@ -4493,8 +4493,8 @@
       "imagen": null,
       "alternativas": {
         "a": "se sujete a otro vehículo que transite por la vía pública",
-        "b": "laexhibición dePlaca Única de Rodaje",
-        "c": "conducir porlas vías locales autorizadas por la autoridad competente",
+        "b": "la exhibición de Placa Única de Rodaje",
+        "c": "conducir por las vías locales autorizadas por la autoridad competente",
         "d": "a y c son correctas"
       },
       "alternativas_imagenes": {
@@ -4508,11 +4508,11 @@
     {
       "numero": "35",
       "tema": "Regulación de actividad de transporte",
-      "descripcion": "Son obligaciones deun conductor y acompañante de una motocicleta o cualquier otrotipodeciclomotor ode una bicicleta",
+      "descripcion": "Son obligaciones de un conductor y acompañante de una motocicleta o cualquier otro tipo de ciclomotor o de una bicicleta",
       "imagen": null,
       "alternativas": {
         "a": "usar casco protector autorizado",
-        "b": "usar anteojos protectores cuando el casconotengaprotector cortavientooelvehículo carezca de parabrisas",
+        "b": "usar anteojos protectores cuando el casco no tenga protector cortaviento o el vehículo carezca de parabrisas",
         "c": "uso de GPS",
         "d": "a y b son correctas"
       },
@@ -4530,10 +4530,10 @@
       "descripcion": "Cuál es el carril en el cual los vehículos menores",
       "imagen": null,
       "alternativas": {
-        "a": "carril dela derecha, de manera ordenada y sin hacer maniobras que ponganenriesgolavida de los ocupantes del vehículo y de la de terceros",
-        "b": "Carril central, de manera ordenada ysin hacer maniobras que ponganenriesgolavida de los ocupantes del vehículo y de la de terceros",
-        "c": "Carril izquierdo, de manera ordenada ysin hacer maniobras que ponganenriesgolavida de los ocupantes del vehículo y de la de terceros",
-        "d": "por el carril donde exista menoscongestión vehicular, de manera ordenada y sin hacer maniobras que pongan enriesgo la vida delos ocupantesdelvehículoy de la de terceros"
+        "a": "carril de la derecha, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo y de la de terceros",
+        "b": "Carril central, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo y de la de terceros",
+        "c": "Carril izquierdo, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo y de la de terceros",
+        "d": "por el carril donde exista menos congestión vehicular, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo y de la de terceros"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -4546,13 +4546,13 @@
     {
       "numero": "37",
       "tema": "Regulación de actividad de transporte",
-      "descripcion": "Losvehículos menores,motorizados o no motorizados, queprestenservicio de transporte público especial de pasajeros, pueden circular por las siguientes vías",
+      "descripcion": "Los vehículos menores, motorizados o no motorizados, que presten servicio de transporte público especial de pasajeros, pueden circular por las siguientes vías",
       "imagen": null,
       "alternativas": {
         "a": "las que señalen las autoridades competentes",
-        "b": "víasexpresas opasos a desnivel",
+        "b": "vías expresas o pasos a desnivel",
         "c": "la red vial nacional, regional o departamental",
-        "d": "la redvial nacional, regional o departamental siempre que la autoridad competente lo permita"
+        "d": "la red vial nacional, regional o departamental siempre que la autoridad competente lo permita"
       },
       "alternativas_imagenes": {
         "a": null,
@@ -4587,8 +4587,8 @@
       "descripcion": "Se encuentra permitido que el conductor de un vehículo menor automotor o no motorizado ….",
       "imagen": null,
       "alternativas": {
-        "a": "lleve carga o pasajeros quedificulten su visibilidad, equilibrio y adecuada conducción",
-        "b": "transportar la cantidad de personas que ocupen asientos especialmente acondicionados paratal objeto",
+        "a": "lleve carga o pasajeros que dificulten su visibilidad, equilibrio y adecuada conducción",
+        "b": "transportar la cantidad de personas que ocupen asientos especialmente acondicionados para tal objeto",
         "c": "circular por las vías autorizadas por la autoridad competente",
         "d": "b y c son correctas"
       },
@@ -4603,11 +4603,11 @@
     {
       "numero": "40",
       "tema": "Regulación de actividad de transporte",
-      "descripcion": "Sonobligaciones deun conductor de un vehículo menor autorizado para transporte carga",
+      "descripcion": "Son obligaciones de un conductor de un vehículo menor autorizado para transporte carga",
       "imagen": null,
       "alternativas": {
         "a": "asegurarse que la carga no sea arrastrada",
-        "b": "asegurarse que la carga nocomprometala estabilidad y conducción del vehículo",
+        "b": "asegurarse que la carga no comprometa la estabilidad y conducción del vehículo",
         "c": "asegurarse que la carga no oculte las luces, dispositivos reflectivos o la Placa Única Nacional de Rodaje y no afecte la visibilidad",
         "d": "Todas son correctas"
       },

@@ -210,6 +210,8 @@ body {
 }
 
 .app-window.prelogin-active .prelogin button {
+  position: static;
+  width: 100%;
   min-height: 54px;
   margin-top: 14px;
   border: 8px outset #ffff00;

@@ -1070,7 +1070,7 @@
       "descripcion": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de:",
       "imagen": null,
       "alternativas": {
-        "a": "20km/h.",
+        "a": "20 km/h.",
         "b": "30km/h.",
         "c": "35km/h.",
         "d": "50km/h."

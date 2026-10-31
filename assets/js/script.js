@@ -5,6 +5,14 @@ const preloginPassword = document.querySelector('#preloginPassword');
 const preloginMessage = document.querySelector('#preloginMessage');
 const PRELOGIN_USERNAME = 'KinkyKing';
 const PRELOGIN_PASSWORD = 'Lima@2020!!';
+const PRELOGIN_PASSED_KEY = 'preloginPassed';
+
+function showDocumentStep() {
+  prelogin.hidden = true;
+  appWindow.classList.remove('prelogin-active');
+  form.hidden = false;
+  documentNumber.focus();
+}
 
 preloginForm.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -17,12 +25,14 @@ preloginForm.addEventListener('submit', (event) => {
     return;
   }
 
-  prelogin.hidden = true;
-  appWindow.classList.remove('prelogin-active');
-  form.hidden = false;
+  try {
+    sessionStorage.setItem(PRELOGIN_PASSED_KEY, '1');
+  } catch (error) {
+    console.warn('No se pudo recordar el acceso:', error);
+  }
   preloginForm.reset();
   preloginMessage.textContent = '';
-  documentNumber.focus();
+  showDocumentStep();
 });
 
 const form = document.querySelector('#loginForm');
@@ -45,7 +55,6 @@ const documentRules = {
   'CARNET DE EXTRANJERIA': { length: 9, label: 'Carnet' }
 };
 const documentLengths = Object.values(documentRules).map((rule) => rule.length);
-const maxDocumentLength = Math.max(...documentLengths);
 
 // Each registered length belongs to one document type.
 function documentTypeForLength(length) {
@@ -92,9 +101,7 @@ syncDocumentRule();
 documentNumber.addEventListener('input', () => {
   examStatus.hidden = true;
 
-  const rule = documentRules[documentType.value];
-  const digitsOnly = documentNumber.value.replace(/\D/g, '');
-  documentNumber.value = rule ? digitsOnly.slice(0, maxDocumentLength) : digitsOnly;
+  documentNumber.value = documentNumber.value.replace(/\D/g, '');
 
   validateDocumentNumber();
 });
@@ -109,7 +116,7 @@ documentType.addEventListener('change', () => {
 const CANDIDATE_SHEETS = [
   {
     url: 'https://docs.google.com/spreadsheets/d/1YX-ZWTGew72RdnnPI2z6KDvw503bkyeXPFBNCFXOA9U/export?format=csv',
-    classPrefix: '',
+    classPrefix: 'A ',
     defaultCategory: '(A) IIb'
   },
   {
@@ -120,14 +127,43 @@ const CANDIDATE_SHEETS = [
 ];
 const ACTIVE_STATUS = 'EN CURSO';
 
+function parseCsv(csv) {
+  const rows = [];
+  let row = [];
+  let value = '';
+  let quoted = false;
+  const endValue = () => { row.push(value.trim()); value = ''; };
+  const endRow = () => { endValue(); rows.push(row); row = []; };
+  for (let i = 0; i < csv.length; i += 1) {
+    const char = csv[i];
+    if (quoted) {
+      if (char !== '"') value += char;
+      else if (csv[i + 1] === '"') { value += '"'; i += 1; } else quoted = false;
+    } else if (char === '"') quoted = true;
+    else if (char === ',') endValue();
+    else if (char === '\n') endRow();
+    else if (char !== '\r') value += char;
+  }
+  if (value || row.length) endRow();
+  return rows;
+}
+
 function parseCsvRows(csv) {
-  const lines = csv.trim().split(/\r?\n/).filter(Boolean);
-  const splitLine = (line) => line.split(',').map((value) => value.trim().replace(/^"|"$/g, ''));
-  // The category column is optional and is found by its header name.
-  const typeIndex = splitLine(lines[0] || '').findIndex((name) => /^(tipo|categor[ií]a)/i.test(name));
-  return lines.slice(1).map((line) => {
-    const values = splitLine(line);
-    return { dni: values[1] || '', status: values[2] || '', type: values[typeIndex] || '' };
+  const [header = [], ...rows] = parseCsv(csv);
+  // Columns are found by name because the sheets can gain or move columns.
+  const names = header.map((name) => name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase());
+  const columnOf = (pattern) => names.findIndex((name) => pattern.test(name));
+  const documentIndex = columnOf(/^(num(ero)?\.?\s*(de\s*)?doc|dni|documento)/);
+  const statusIndex = columnOf(/^estado/);
+  const typeIndex = columnOf(/^(categoria|tipo(?!.*doc))/);
+  return rows.map((values) => {
+    // Older rows keep the number in the second column, whatever its name is now.
+    const legacyDocument = /^[0-9]+$/.test(values[1] || '') ? values[1] : '';
+    return {
+      dni: values[documentIndex] || legacyDocument,
+      status: values[statusIndex] || '',
+      type: values[typeIndex] || ''
+    };
   }).filter((candidate) => /^[0-9]+$/.test(candidate.dni) && documentLengths.includes(candidate.dni.length));
 }
 
@@ -165,20 +201,14 @@ function formatCategory(type = '', fallback = '(A) IIb') {
     AIIIC: '(A) IIIc',
     BIIA: '(B) IIa',
     BIIB: '(B) IIb',
-    BIIC: '(B) IIc',
-    // Values used by the previous sheet.
-    IA: '(A) I',
-    IIA: '(A) IIb',
-    IIIA: '(A) IIIa',
-    IIIB: '(A) IIIb',
-    IIIC: '(A) IIIc'
+    BIIC: '(B) IIc'
   };
   return categories[normalized] || fallback;
 }
 
 function showExamSummary(candidate) {
   summaryDni.textContent = candidate.dni;
-  summaryName.textContent = candidate.name || 'SAMUEL SOTO HERRERA';
+  summaryName.textContent = candidate.name || 'POSTULANTE';
   summaryCategory.textContent = candidate.category || formatCategory(candidate.type);
   examStatus.hidden = true;
   examSummary.hidden = false;
@@ -192,6 +222,7 @@ form.addEventListener('submit', async (event) => {
   if (submitButton.disabled) return;
 
   if (!validateDocumentNumber()) {
+    message.textContent = documentNumber.validationMessage;
     examStatus.hidden = true;
     documentNumber.focus();
     return;
@@ -213,7 +244,7 @@ form.addEventListener('submit', async (event) => {
       return;
     }
 
-    showExamSummary({ ...found, name: 'SAMUEL SOTO HERRERA' });
+    showExamSummary({ ...found, name: 'POSTULANTE' });
   } finally {
     submitButton.disabled = false;
     submitButton.removeAttribute('aria-busy');
@@ -254,6 +285,54 @@ let questionBank = [];
 let questionIndex = 0;
 const examAnswers = {};
 let timerSeconds = 40 * 60;
+let examDeadline = 0;
+const EXAM_STATE_KEY = 'examInProgress';
+
+// A reload must not restart the clock, so the running exam is kept until it finishes.
+function saveExamState() {
+  if (!examDeadline) return;
+  try {
+    localStorage.setItem(EXAM_STATE_KEY, JSON.stringify({
+      dni: summaryDni.textContent,
+      category: summaryCategory.textContent,
+      deadline: examDeadline,
+      questions: questionBank,
+      answers: examAnswers,
+      index: questionIndex
+    }));
+  } catch (error) {
+    console.warn('No se pudo guardar el examen:', error);
+  }
+}
+
+function loadExamState() {
+  try {
+    const state = JSON.parse(localStorage.getItem(EXAM_STATE_KEY));
+    const matches = state && state.dni === summaryDni.textContent && state.category === summaryCategory.textContent;
+    return matches && Array.isArray(state.questions) && state.questions.length ? state : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function clearExamState() {
+  examDeadline = 0;
+  try {
+    localStorage.removeItem(EXAM_STATE_KEY);
+  } catch (error) {
+    console.warn('No se pudo limpiar el examen:', error);
+  }
+}
+
+// Random questions, kept in bank order so each topic stays together.
+function pickRandom(questions, count) {
+  const positions = questions.map((_, index) => index);
+  for (let i = positions.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [positions[i], positions[j]] = [positions[j], positions[i]];
+  }
+  return positions.slice(0, count).sort((a, b) => a - b).map((index) => questions[index]);
+}
 
 function normalizeQuestions(payload) {
   const cleanPart = (questions = []) => questions
@@ -271,17 +350,14 @@ function normalizeQuestions(payload) {
   const generales = cleanPart(payload.generales);
   const especificas = cleanPart(payload.especificas);
 
-  let ordered = [...generales.slice(0, 20), ...especificas.slice(0, 20)];
+  // Categories without specific questions take all 40 from the general part.
+  const specificCount = Math.min(especificas.length, 20);
+  const ordered = [
+    ...pickRandom(generales, 40 - specificCount),
+    ...pickRandom(especificas, specificCount)
+  ];
 
-  if (ordered.length < 40) {
-    ordered = [
-      ...ordered,
-      ...generales.slice(20),
-      ...especificas.slice(20)
-    ];
-  }
-
-  return ordered.slice(0, 40).map((question, index) => ({
+  return ordered.map((question, index) => ({
     ...question,
     displayNumber: index + 1,
     ref: `q-${index + 1}-${question.numero || 'sin-numero'}`
@@ -319,12 +395,14 @@ async function openQuestionBank() {
   label.textContent = 'CARGANDO PREGUNTAS…';
   startExamMessage.textContent = '';
   try {
-    questionBank = normalizeQuestions(await loadQuestionBank(file));
+    const saved = loadExamState();
+    questionBank = saved ? saved.questions : normalizeQuestions(await loadQuestionBank(file));
     if (!questionBank.length) throw new Error('El banco no contiene preguntas');
 
     Object.keys(examAnswers).forEach((key) => delete examAnswers[key]);
-    questionIndex = 0;
-    timerSeconds = 40 * 60;
+    Object.assign(examAnswers, saved?.answers);
+    questionIndex = saved ? Math.min(saved.index, questionBank.length - 1) : 0;
+    timerSeconds = saved ? Math.max(0, Math.ceil((saved.deadline - Date.now()) / 1000)) : 40 * 60;
     examCandidateName.textContent = summaryName.textContent;
     renderTopicNavigation();
     renderQuestion();
@@ -334,6 +412,7 @@ async function openQuestionBank() {
     appWindow.classList.add('exam-active');
     pageTitle.textContent = `Examen de Conocimientos - CATEGORÍA: ${category}`;
     startTimer();
+    saveExamState();
   } catch (error) {
     questionBank = [];
     examSummary.hidden = false;
@@ -417,6 +496,7 @@ function renderQuestion() {
     radio.checked = examAnswers[question.ref] === letter;
     radio.addEventListener('change', () => {
       examAnswers[question.ref] = letter;
+      saveExamState();
       updateAnswerSummary();
       renderTopicNavigationState();
     });
@@ -436,6 +516,7 @@ function renderQuestion() {
   document.querySelector('#nextQuestion').disabled = questionIndex === questionBank.length - 1;
   finishExam.classList.toggle('is-hidden', questionIndex !== questionBank.length - 1);
   renderTopicNavigationState();
+  saveExamState();
 }
 
 function renderTopicNavigationState() {
@@ -460,18 +541,26 @@ function updateAnswerSummary() {
   finishExam.disabled = answered < questionBank.length;
 }
 
+function updateTimer() {
+  // Uses the real clock: browsers slow down intervals in background tabs.
+  const remaining = Math.max(0, Math.ceil((examDeadline - Date.now()) / 1000));
+  const hours = String(Math.floor(remaining / 3600)).padStart(2, '0');
+  const minutes = String(Math.floor((remaining % 3600) / 60)).padStart(2, '0');
+  const seconds = String(remaining % 60).padStart(2, '0');
+  examTimer.textContent = `${hours}:${minutes}:${seconds}`;
+  if (remaining === 0) finishExamScreen();
+}
+
 function startTimer() {
   if (window.examTimerInterval) clearInterval(window.examTimerInterval);
-  const tick = () => {
-    const hours = String(Math.floor(timerSeconds / 3600)).padStart(2, '0');
-    const minutes = String(Math.floor((timerSeconds % 3600) / 60)).padStart(2, '0');
-    const seconds = String(timerSeconds % 60).padStart(2, '0');
-    examTimer.textContent = `${hours}:${minutes}:${seconds}`;
-    if (timerSeconds > 0) timerSeconds -= 1;
-  };
-  tick();
-  window.examTimerInterval = setInterval(tick, 1000);
+  examDeadline = Date.now() + timerSeconds * 1000;
+  window.examTimerInterval = setInterval(updateTimer, 1000);
+  updateTimer();
 }
+
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && !examScreen.hidden) updateTimer();
+});
 
 startExam.addEventListener('click', openQuestionBank);
 document.querySelector('#previousQuestion').addEventListener('click', () => {
@@ -481,10 +570,10 @@ document.querySelector('#nextQuestion').addEventListener('click', () => {
   if (questionIndex < questionBank.length - 1) { questionIndex += 1; renderQuestion(); }
 });
 document.addEventListener('keydown', (event) => {
-  if (examScreen.hidden) return;
+  if (examScreen.hidden || !event.key) return;
   if (event.key === 'Enter') {
     // Preserve Enter activation for focused buttons and other controls.
-    if (event.target.closest('button, a, select, textarea, input:not([type="radio"]), [contenteditable="true"]')) return;
+    if (event.target.closest?.('button, a, select, textarea, input:not([type="radio"]), [contenteditable="true"]')) return;
     event.preventDefault();
     if (event.repeat || event.isComposing || event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
     const question = questionBank[questionIndex];
@@ -494,8 +583,13 @@ document.addEventListener('keydown', (event) => {
     }
     return;
   }
-  if (event.key === 'ArrowLeft') document.querySelector('#previousQuestion').click();
-  if (event.key === 'ArrowRight') document.querySelector('#nextQuestion').click();
+  if (event.ctrlKey || event.altKey || event.metaKey) return;
+  if (event.target.closest?.('input:not([type="radio"]), select, textarea, [contenteditable="true"]')) return;
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    // Otherwise a focused radio would also change the marked answer.
+    event.preventDefault();
+    document.querySelector(event.key === 'ArrowLeft' ? '#previousQuestion' : '#nextQuestion').click();
+  }
   const map = { '1': 'a', '2': 'b', '3': 'c', '4': 'd', a: 'a', b: 'b', c: 'c', d: 'd' };
   const letter = map[event.key.toLowerCase()];
   if (letter) {
@@ -520,6 +614,7 @@ document.querySelector('#zoomIn').addEventListener('click', () => {
 });
 function resetToLogin() {
   if (window.examTimerInterval) clearInterval(window.examTimerInterval);
+  clearExamState();
   finishScreen.hidden = true;
   examScreen.hidden = true;
   examSummary.hidden = true;
@@ -534,6 +629,11 @@ function resetToLogin() {
 
 function showFinishedExam() {
   if (finishExam.disabled) return;
+  finishExamScreen();
+}
+
+function finishExamScreen() {
+  clearExamState();
   finishName.textContent = summaryName.textContent;
   finishCategory.textContent = summaryCategory.textContent;
   examScreen.hidden = true;
@@ -551,3 +651,9 @@ newExamButton.addEventListener('click', () => {
   resetToLogin();
 });
 
+// A reload keeps the access already granted in this tab.
+try {
+  if (sessionStorage.getItem(PRELOGIN_PASSED_KEY)) showDocumentStep();
+} catch (error) {
+  console.warn('No se pudo leer el acceso:', error);
+}

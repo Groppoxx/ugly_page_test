@@ -1070,7 +1070,7 @@
       "descripcion": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de:",
       "imagen": null,
       "alternativas": {
-        "a": "20km/h.",
+        "a": "20 km/h.",
         "b": "30km/h.",
         "c": "35km/h.",
         "d": "50km/h."
@@ -3922,8 +3922,8 @@
       "descripcion": "La nota aprobatoria mínima para las capacitaciones sobre el manejo de materiales y residuos peligrosos es :",
       "imagen": null,
       "alternativas": {
-        "a": "90 %",
-        "b": "70 %",
+        "a": "90%",
+        "b": "70%",
         "c": "80%",
         "d": "85%"
       },
@@ -4755,7 +4755,7 @@
     {
       "numero": "51",
       "tema": "Reglamento Nacional de Vehículos",
-      "descripcion": "¿Cuál es una medida preventivaque puede aplicar la autoridad competente, según en el Reglamento Nacional de Vehículos?",
+      "descripcion": "¿Cuál es una medida preventiva que puede aplicar la autoridad competente, según en el Reglamento Nacional de Vehículos?",
       "imagen": null,
       "alternativas": {
         "a": "Retención de la licencia de conducir.",

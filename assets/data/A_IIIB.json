@@ -1070,7 +1070,7 @@
       "descripcion": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de:",
       "imagen": null,
       "alternativas": {
-        "a": "20km/h.",
+        "a": "20 km/h.",
         "b": "30km/h.",
         "c": "35km/h.",
         "d": "50km/h."
@@ -4222,7 +4222,7 @@
     },
     {
       "numero": "23",
-      "tema": "Funcionamient o del Sistema Nacional de Emisión de Licencias de Conducir",
+      "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
       "descripcion": "Para conducir vehículos de transporte terrestre de materiales peligrosos, ____ necesario contar con la licencia que corresponda a la categoría del vehículo que transporta los materiales peligrosos.",
       "imagen": null,
       "alternativas": {
@@ -4241,7 +4241,7 @@
     },
     {
       "numero": "24",
-      "tema": "Funcionamient o del Sistema Nacional de Emisión de Licencias de Conducir",
+      "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
       "descripcion": "¿Cuál es la antigüedad mínima contando con licencia de Clase A- Categoría II B que se requiere para obtener la licencia de Clase A categoría III B por recategorización?",
       "imagen": null,
       "alternativas": {
