@@ -41,9 +41,16 @@ const documentType = document.querySelector('#documentType');
 form.noValidate = true;
 
 const documentRules = {
-  DNI: { length: 8, label: 'El DNI' },
-  'CARNET DE EXTRANJERIA': { length: 9, label: 'El carnet de extranjería' }
+  DNI: { length: 8, label: 'DNI' },
+  'CARNET DE EXTRANJERIA': { length: 9, label: 'Carnet' }
 };
+const documentLengths = Object.values(documentRules).map((rule) => rule.length);
+const maxDocumentLength = Math.max(...documentLengths);
+
+// Each registered length belongs to one document type.
+function documentTypeForLength(length) {
+  return Object.keys(documentRules).find((type) => documentRules[type].length === length);
+}
 
 function syncDocumentRule() {
   const rule = documentRules[documentType.value];
@@ -68,10 +75,10 @@ function validateDocumentNumber() {
 
   if (!value) {
     error = 'Ingrese su número de documento';
-  } else if (!/^[0-9]+$/.test(value)) {
-    error = 'Use solo dígitos del 0 al 9, sin espacios, letras ni símbolos';
   } else if (rule && value.length !== rule.length) {
-    error = `${rule.label} debe tener exactamente ${rule.length} dígitos`;
+    error = `${rule.label}: ${rule.length} dígitos`;
+  } else if (!rule && documentTypeForLength(value.length)) {
+    error = `Seleccione ${documentRules[documentTypeForLength(value.length)].label}`;
   }
 
   message.textContent = value ? error : '';
@@ -87,7 +94,7 @@ documentNumber.addEventListener('input', () => {
 
   const rule = documentRules[documentType.value];
   const digitsOnly = documentNumber.value.replace(/\D/g, '');
-  documentNumber.value = rule ? digitsOnly.slice(0, rule.length) : digitsOnly;
+  documentNumber.value = rule ? digitsOnly.slice(0, maxDocumentLength) : digitsOnly;
 
   validateDocumentNumber();
 });
@@ -98,45 +105,81 @@ documentType.addEventListener('change', () => {
   validateDocumentNumber();
 });
 
-const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/15LIZEFHGc8UR8KLQIoC2u9eSnXVasTqt37hE9v5G2Uo/export?format=csv&gid=989029388';
+// Each class has its own sheet; class A is checked first.
+const CANDIDATE_SHEETS = [
+  {
+    url: 'https://docs.google.com/spreadsheets/d/1YX-ZWTGew72RdnnPI2z6KDvw503bkyeXPFBNCFXOA9U/export?format=csv',
+    classPrefix: '',
+    defaultCategory: '(A) IIb'
+  },
+  {
+    url: 'https://docs.google.com/spreadsheets/d/10YIEYB6o5RVcF4eAJBOa-wNv8I4Krba65pTk4pZgD5I/export?format=csv',
+    classPrefix: 'B ',
+    defaultCategory: '(B) IIb'
+  }
+];
+const ACTIVE_STATUS = 'EN CURSO';
 
 function parseCsvRows(csv) {
   const lines = csv.trim().split(/\r?\n/).filter(Boolean);
+  const splitLine = (line) => line.split(',').map((value) => value.trim().replace(/^"|"$/g, ''));
+  // The category column is optional and is found by its header name.
+  const typeIndex = splitLine(lines[0] || '').findIndex((name) => /^(tipo|categor[ií]a)/i.test(name));
   return lines.slice(1).map((line) => {
-    const values = line.split(',').map((value) => value.trim().replace(/^"|"$/g, ''));
-    return { dni: values[1] || '', type: values[2] || '' };
-  }).filter((candidate) => {
-    const rule = documentRules.DNI;
-    return new RegExp(`^[0-9]{${rule.length}}$`).test(candidate.dni) && Boolean(candidate.type.trim());
-  });
+    const values = splitLine(line);
+    return { dni: values[1] || '', status: values[2] || '', type: values[typeIndex] || '' };
+  }).filter((candidate) => /^[0-9]+$/.test(candidate.dni) && documentLengths.includes(candidate.dni.length));
 }
 
-async function loadCandidates() {
+async function loadSheetCandidates(sheet) {
   try {
-    const response = await fetch(SHEET_CSV_URL, { cache: 'no-store' });
+    const response = await fetch(sheet.url, { cache: 'no-store' });
     if (!response.ok) throw new Error('No se pudo consultar la hoja');
-    return parseCsvRows(await response.text());
+    return parseCsvRows(await response.text()).map((candidate) => {
+      const hasClass = /^\s*(clase\s*)?[ab]/i.test(candidate.type);
+      const type = hasClass ? candidate.type : `${sheet.classPrefix}${candidate.type}`;
+      return { ...candidate, category: formatCategory(type, sheet.defaultCategory) };
+    });
   } catch (error) {
     return [];
   }
 }
 
-function formatCategory(type) {
-  const normalized = type.toUpperCase().replace(/\s+/g, ' ').trim();
+// One failing sheet must not block people registered in the other one.
+function loadCandidates() {
+  return Promise.all(CANDIDATE_SHEETS.map(loadSheetCandidates));
+}
+
+function isActiveCandidate(candidate) {
+  return candidate.status.toUpperCase().replace(/\s+/g, ' ').trim() === ACTIVE_STATUS;
+}
+
+function formatCategory(type = '', fallback = '(A) IIb') {
+  const normalized = type.toUpperCase().replace(/CLASE|CATEGOR[IÍ]A|[\s,-]/g, '');
   const categories = {
-    'I A': '(A) I',
-    'II A': '(A) IIb',
-    'III A': '(A) IIIa',
-    'III B': '(A) IIIb',
-    'III C': '(A) IIIc'
+    AI: '(A) I',
+    AIIA: '(A) IIa',
+    AIIB: '(A) IIb',
+    AIIIA: '(A) IIIa',
+    AIIIB: '(A) IIIb',
+    AIIIC: '(A) IIIc',
+    BIIA: '(B) IIa',
+    BIIB: '(B) IIb',
+    BIIC: '(B) IIc',
+    // Values used by the previous sheet.
+    IA: '(A) I',
+    IIA: '(A) IIb',
+    IIIA: '(A) IIIa',
+    IIIB: '(A) IIIb',
+    IIIC: '(A) IIIc'
   };
-  return categories[normalized] || `(A) ${normalized || 'IIb'}`;
+  return categories[normalized] || fallback;
 }
 
 function showExamSummary(candidate) {
   summaryDni.textContent = candidate.dni;
   summaryName.textContent = candidate.name || 'SAMUEL SOTO HERRERA';
-  summaryCategory.textContent = formatCategory(candidate.type);
+  summaryCategory.textContent = candidate.category || formatCategory(candidate.type);
   examStatus.hidden = true;
   examSummary.hidden = false;
   appWindow.classList.add('exam-running');
@@ -158,8 +201,11 @@ form.addEventListener('submit', async (event) => {
   submitButton.disabled = true;
   submitButton.setAttribute('aria-busy', 'true');
   try {
-    const candidates = await loadCandidates();
-    const found = candidates.find((candidate) => candidate.dni === value);
+    const sheets = await loadCandidates();
+    // A repeated DNI uses its most recent row in each sheet.
+    const found = sheets
+      .map((candidates) => candidates.filter((candidate) => candidate.dni === value).pop())
+      .find((candidate) => candidate && isActiveCandidate(candidate));
 
     if (!found) {
       examSummary.hidden = true;
@@ -193,7 +239,17 @@ const answerPercent = document.querySelector('#answerPercent');
 const finishExam = document.querySelector('#finishExam');
 const examCandidateName = document.querySelector('#examCandidateName');
 const examTimer = document.querySelector('#examTimer');
-const categoryFiles = { '(A) I': 'A_I', '(A) IIb': 'A_IIB', '(A) IIIa': 'A_IIIA', '(A) IIIb': 'A_IIIB', '(A) IIIc': 'A_IIIC' };
+const categoryFiles = {
+  '(A) I': 'A_I',
+  '(A) IIa': 'A_IIA',
+  '(A) IIb': 'A_IIB',
+  '(A) IIIa': 'A_IIIA',
+  '(A) IIIb': 'A_IIIB',
+  '(A) IIIc': 'A_IIIC',
+  '(B) IIa': 'B_IIA',
+  '(B) IIb': 'B_IIB',
+  '(B) IIc': 'B_IIC'
+};
 let questionBank = [];
 let questionIndex = 0;
 const examAnswers = {};
@@ -423,9 +479,6 @@ document.querySelector('#previousQuestion').addEventListener('click', () => {
 });
 document.querySelector('#nextQuestion').addEventListener('click', () => {
   if (questionIndex < questionBank.length - 1) { questionIndex += 1; renderQuestion(); }
-});
-document.querySelector('#keyboardHelp').addEventListener('click', () => {
-  alert('Atajos de teclado:\n\n← / →: pregunta anterior o siguiente\n1-4 o A-D: seleccionar alternativa\nEnter: pasar a la siguiente pregunta después de seleccionar una alternativa');
 });
 document.addEventListener('keydown', (event) => {
   if (examScreen.hidden) return;

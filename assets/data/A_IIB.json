@@ -3780,9 +3780,7 @@
         "d": null
       },
       "respuesta": "a"
-    }
-  ],
-  "especificas": [
+    },
     {
       "numero": "200",
       "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
@@ -3801,7 +3799,9 @@
         "d": null
       },
       "respuesta": "c"
-    },
+    }
+  ],
+  "especificas": [
     {
       "numero": "1",
       "tema": "Reglamento Nacional de Vehículos",
@@ -4636,7 +4636,7 @@
         "c": null,
         "d": null
       },
-      "respuesta": "dadacda"
+      "respuesta": "d"
     },
     {
       "numero": "45",
@@ -4998,6 +4998,25 @@
         "d": null
       },
       "respuesta": "c"
+    },
+    {
+      "numero": "64",
+      "tema": "Regulación de actividad de transporte",
+      "descripcion": "En el servicio de transporte de personas de ámbito provincial, el ascenso y descenso de los usuarios se podrá realizar en:",
+      "imagen": null,
+      "alternativas": {
+        "a": "Los lugares autorizados o paraderos de ruta.",
+        "b": "En los paraderos urbanos e interurbanos.",
+        "c": "En cualquier punto de la vía, siempre que se tome la debida precaución.",
+        "d": "Todas las anteriores."
+      },
+      "alternativas_imagenes": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      },
+      "respuesta": "b"
     },
     {
       "numero": "65",

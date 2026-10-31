@@ -240,9 +240,9 @@
         "d": ""
       },
       "alternativas_imagenes": {
-        "a": null,
-        "b": null,
-        "c": null,
+        "a": "B_IIA_generales_p2_n13_a.png",
+        "b": "B_IIA_generales_p2_n13_b.png",
+        "c": "B_IIA_generales_p2_n13_c.png",
         "d": null
       },
       "respuesta": "a"
@@ -259,9 +259,9 @@
         "d": "La a y c son correctas."
       },
       "alternativas_imagenes": {
-        "a": null,
-        "b": null,
-        "c": null,
+        "a": "B_IIA_generales_p2_n14_a.png",
+        "b": "B_IIA_generales_p2_n14_b.png",
+        "c": "B_IIA_generales_p2_n14_c.png",
         "d": null
       },
       "respuesta": "d"
@@ -278,9 +278,9 @@
         "d": "Solo la b es incorrecta"
       },
       "alternativas_imagenes": {
-        "a": null,
-        "b": null,
-        "c": null,
+        "a": "B_IIA_generales_p2_n15_a.png",
+        "b": "B_IIA_generales_p2_n15_b.png",
+        "c": "B_IIA_generales_p2_n15_c.png",
         "d": null
       },
       "respuesta": "d"
@@ -365,7 +365,7 @@
       "numero": "20",
       "tema": "Obligaciones del conductor en materia de tránsito terrestre",
       "descripcion": "La señal vertical reglamentaria R-3 significa que:",
-      "imagen": null,
+      "imagen": "B_IIA_generales_p2_n20_preg.png",
       "alternativas": {
         "a": "Nosacercamosauna zona restringida al tránsito.",
         "b": "Nos aproximamos a un tramo de circulación unidireccional en el sentido indicado por la fecha.",
@@ -1234,6 +1234,25 @@
         "d": null
       },
       "respuesta": "b"
+    },
+    {
+      "numero": "66",
+      "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+      "descripcion": "Al cambiar de dirección, un conductor debe:",
+      "imagen": null,
+      "alternativas": {
+        "a": "Señalizar toda la maniobra.",
+        "b": "Ceder el derecho de paso a los demás vehículos y a los peatones",
+        "c": "a y b son correctas.",
+        "d": "Solo la b) es correcta"
+      },
+      "alternativas_imagenes": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      },
+      "respuesta": "c"
     },
     {
       "numero": "67",
@@ -3041,7 +3060,7 @@
       "respuesta": "b"
     },
     {
-      "numero": "",
+      "numero": "162",
       "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
       "descripcion": "Es una licencia de conducir que se obtiene por recategorización",
       "imagen": null,

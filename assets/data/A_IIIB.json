@@ -3780,9 +3780,7 @@
         "d": null
       },
       "respuesta": "a"
-    }
-  ],
-  "especificas": [
+    },
     {
       "numero": "200",
       "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
@@ -3801,7 +3799,9 @@
         "d": null
       },
       "respuesta": "c"
-    },
+    }
+  ],
+  "especificas": [
     {
       "numero": "1",
       "tema": "Reglamento Nacional de Vehículos",
@@ -4183,6 +4183,25 @@
       "respuesta": "c"
     },
     {
+      "numero": "21",
+      "tema": "Reglamento Nacional de Vehículos",
+      "descripcion": "¿Con qué porcentaje adicional se sanciona la reincidencia en la comisión de infracciones muy graves?",
+      "imagen": null,
+      "alternativas": {
+        "a": "50%",
+        "b": "30%",
+        "c": "40%",
+        "d": "20%"
+      },
+      "alternativas_imagenes": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      },
+      "respuesta": "a"
+    },
+    {
       "numero": "22",
       "tema": "",
       "descripcion": "La licencia de conducir de Clase A- Categoría III B tendrá una vigencia de…..",
@@ -4316,7 +4335,7 @@
       "respuesta": "a"
     },
     {
-      "numero": "",
+      "numero": "29",
       "tema": "Mecánica para la conducción",
       "descripcion": "¿Qué elemento del sistema de suspensión no corresponde para ser usado en semirremolques?",
       "imagen": null,
@@ -4544,7 +4563,7 @@
       "respuesta": "a"
     },
     {
-      "numero": "",
+      "numero": "41",
       "tema": "Regulación de actividad de transporte",
       "descripcion": "Es la medida preventiva que consiste en el traslado del vehículo fuera de la vía pública dispuesto por la autoridad competente y/o PNP, utilizando cualquier medio eficaz y proporcional al fin que se persigue:",
       "imagen": null,
@@ -4734,7 +4753,7 @@
       "respuesta": "a"
     },
     {
-      "numero": "",
+      "numero": "52",
       "tema": "Regulación de actividad de transporte",
       "descripcion": "Los terminales terrestres son obligatorios para el servicio público de transporte regular de personas en el ámbito:",
       "imagen": null,
@@ -4924,6 +4943,25 @@
       "respuesta": "c"
     },
     {
+      "numero": "62",
+      "tema": "Regulación de actividad de transporte",
+      "descripcion": "La duración acumulada de jornadas de conducción no deberá exceder:",
+      "imagen": null,
+      "alternativas": {
+        "a": "De doce (12) horas en un periodo de veinticuatro (24) horas, contadas desde el inicio de la conducción en un servicio.",
+        "b": "De ocho (8) horas en un periodo de veinticuatro (24) horas, contadas desde el inicio de la conducción en un servicio.",
+        "c": "De diez (10) horas en un periodo de treinta y seis (36) horas, contadas desde el inicio de la conducción en un servicio.",
+        "d": "De diez (10) horas en un periodo de veinticuatro (24) horas, contadas desde el inicio de la conducción en un servicio."
+      },
+      "alternativas_imagenes": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      },
+      "respuesta": "d"
+    },
+    {
       "numero": "63",
       "tema": "Regulación de actividad de transporte",
       "descripcion": "¿A partir de qué edad los menores de edad deben ocupar su propio asiento?",
@@ -4932,7 +4970,7 @@
         "a": "A partir de los cinco (5) años de edad.",
         "b": "A partir de los tres (3) años de edad.",
         "c": "A partir de los siete (7) años de edad.",
-        "d": ""
+        "d": "No edad mínima para que los menores de edad ocupen su propio asiento."
       },
       "alternativas_imagenes": {
         "a": null,
@@ -4968,8 +5006,8 @@
       "imagen": null,
       "alternativas": {
         "a": "Nunca se da este supuesto.",
-        "b": "",
-        "c": "",
+        "b": "Sí, cuando una de ellas es un menor de cinco (5) años de edad.",
+        "c": "Sí, cuando una de ellas es un menor de tres (3) años de edad.",
         "d": "Ninguna de las anteriores."
       },
       "alternativas_imagenes": {
@@ -5019,6 +5057,63 @@
       "respuesta": "c"
     },
     {
+      "numero": "68",
+      "tema": "Regulación de actividad de transporte",
+      "descripcion": "En el servicio de transporte de personas de ámbito provincial, el ascenso y descenso de los usuarios se podrá realizar en:",
+      "imagen": null,
+      "alternativas": {
+        "a": "Los lugares autorizados o paraderos de ruta.",
+        "b": "En los paraderos urbanos e interurbanos.",
+        "c": "En cualquier punto de la vía, siempre que se tome la debida precaución.",
+        "d": "Todas las anteriores."
+      },
+      "alternativas_imagenes": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": "69",
+      "tema": "Regulación de actividad de transporte",
+      "descripcion": "Al conductor que durante una acción de fiscalización se niega a entregar la información o documentación sobre su habilitación como conductor del servicio de transporte, se le debe aplicar la siguiente sanción:",
+      "imagen": null,
+      "alternativas": {
+        "a": "Suspensión de la licencia de conducir por 30 días calendario.",
+        "b": "Suspensión de la licencia de conducir por 90 días calendario y multa de 0.5 UIT.",
+        "c": "Suspensión de la licencia de conducir por 10 días calendario.",
+        "d": "Ninguna de las anteriores."
+      },
+      "alternativas_imagenes": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      },
+      "respuesta": "b"
+    },
+    {
+      "numero": "70",
+      "tema": "Regulación de actividad de transporte",
+      "descripcion": "Es el servicio de transporte de personas y de mercancías en un vehículo autorizado para este tipo de transporte:",
+      "imagen": null,
+      "alternativas": {
+        "a": "Servicio de transporte estándar.",
+        "b": "Servicio de transporte mixto.",
+        "c": "Servicio de transporte diferenciado.",
+        "d": "Ninguna de las anteriores."
+      },
+      "alternativas_imagenes": {
+        "a": null,
+        "b": null,
+        "c": null,
+        "d": null
+      },
+      "respuesta": "b"
+    },
+    {
       "numero": "71",
       "tema": "Regulación de actividad de transporte",
       "descripcion": "El vehículo que presta el servicio de transporte de ámbito nacional o regional debe contar con el siguiente Seguro:",
@@ -5026,7 +5121,7 @@
       "alternativas": {
         "a": "Seguro Obligatorio de Accidentes de Tránsito- SOAT.",
         "b": "Certificado Contra Accidentes de Tránsito- CAT.",
-        "c": "",
+        "c": "Seguro Obligatorio de Accidentes de Tránsito- SOAT o Certificado Contra Accidentes de Tránsito- CAT.",
         "d": "Alternativas a) y b)."
       },
       "alternativas_imagenes": {

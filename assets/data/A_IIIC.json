@@ -3780,9 +3780,7 @@
         "d": null
       },
       "respuesta": "a"
-    }
-  ],
-  "especificas": [
+    },
     {
       "numero": "200",
       "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
@@ -3801,7 +3799,9 @@
         "d": null
       },
       "respuesta": "c"
-    },
+    }
+  ],
+  "especificas": [
     {
       "numero": "1",
       "tema": "Mercancías peligrosas",

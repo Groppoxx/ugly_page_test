@@ -3780,9 +3780,7 @@
         "d": null
       },
       "respuesta": "a"
-    }
-  ],
-  "especificas": [
+    },
     {
       "numero": "200",
       "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
@@ -3790,7 +3788,7 @@
       "imagen": "A_IIA_especificas_p21_n200_preg.png",
       "alternativas": {
         "a": "La zona que permite adelantar inicia con las líneas amarillas continuas.",
-        "b": "",
+        "b": "Los conductores pueden estacionarse al empezar las líneas continuas.",
         "c": "La zona de no adelantar inicia con las líneas amarillas continuas.",
         "d": "El conductor del camión puede estacionarse antes de empezar las líneas continuas"
       },
@@ -3801,7 +3799,9 @@
         "d": null
       },
       "respuesta": "c"
-    },
+    }
+  ],
+  "especificas": [
     {
       "numero": "1",
       "tema": "Regulación de actividad de transporte",
