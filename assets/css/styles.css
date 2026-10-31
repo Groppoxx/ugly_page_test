@@ -187,6 +187,10 @@ body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+@media (min-width: 560px) and (min-height: 600px) {
+  .app-window.prelogin-active .prelogin { transform: translate(-50%, -50%) rotate(3deg) scale(1.2); }
+}
+
 .app-window.prelogin-active .prelogin h2 {
   margin-bottom: 24px;
   color: #00ff00;
@@ -263,7 +267,7 @@ body {
   border-radius: 6px;
   background: #fff;
   box-shadow: 0 2px 3px rgba(0, 0, 0, .38);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1.25);
 }
 
 .id-icon {
