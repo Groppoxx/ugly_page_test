@@ -4,7 +4,7 @@ const preloginUser = document.querySelector('#preloginUser');
 const preloginPassword = document.querySelector('#preloginPassword');
 const preloginMessage = document.querySelector('#preloginMessage');
 const PRELOGIN_USERNAME = 'KinkyKing';
-const PRELOGIN_PASSWORD = 'Lima@2020!';
+const PRELOGIN_PASSWORD = 'Lima@2020!!';
 
 preloginForm.addEventListener('submit', (event) => {
   event.preventDefault();
